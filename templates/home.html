@@ -1,0 +1,27 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="row align-items-center py-5">
+    <div class="col-lg-6">
+        <h1 class="display-4 fw-bold lh-1 mb-3">Domine o Mercado sem arriscar seu dinheiro</h1>
+        <p class="lead text-muted">Aprenda análise técnica, price action e estratégias de trading de forma gamificada. Pratique com gráficos históricos reais.</p>
+        <div class="d-grid gap-2 d-md-flex justify-content-md-start mb-4">
+            {% if user.is_authenticated %}
+                <a href="{% url 'learning:course_map' %}" class="btn btn-primary btn-lg px-4 me-md-2">
+                  Continuar Aprendendo
+                </a>
+                <a href="{% url 'simulator:index' %}" class="btn btn-outline-secondary btn-lg px-4">
+                    Ir para o Simulador
+                </a>
+            {% else %}
+                <a href="{% url 'account_signup' %}" class="btn btn-primary btn-lg px-4 me-md-2">Começar Agora Grátis</a>
+                <a href="{% url 'account_login' %}" class="btn btn-outline-secondary btn-lg px-4">Já tenho conta</a>
+            {% endif %}
+        </div>
+
+    </div>
+    <div class="col-lg-6 text-center">
+        <i class="bi bi-graph-up-arrow text-primary" style="font-size: 150px;"></i>
+    </div>
+</div>
+{% endblock %}

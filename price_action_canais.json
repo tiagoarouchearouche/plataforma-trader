@@ -1,0 +1,222 @@
+[
+    {
+        "question": "Um Canal de Alta é formado por:",
+        "options": {
+            "a": "Uma LTA nos fundos e uma linha paralela nos topos (Linha de Retorno)",
+            "b": "Duas linhas horizontais",
+            "c": "Uma LTB e uma LTA se cruzando",
+            "d": "Apenas uma linha"
+        },
+        "correct": "a",
+        "explanation": "Cria-se um 'corredor' inclinado para cima onde o preço oscila de forma organizada."
+    },
+    {
+        "question": "A linha superior de um Canal de Alta funciona como:",
+        "options": {
+            "a": "Suporte",
+            "b": "Resistência Dinâmica e Alvo de Lucro",
+            "c": "Stop Loss",
+            "d": "Ponto de compra"
+        },
+        "correct": "b",
+        "explanation": "É onde os compradores realizam lucro e vendedores arriscam contra-tendência. O preço tende a bater lá e voltar."
+    },
+    {
+        "question": "A estratégia básica em um Canal de Alta é:",
+        "options": {
+            "a": "Vender no fundo e comprar no topo",
+            "b": "Comprar no fundo (LTA) e realizar lucro no topo (Linha de Retorno)",
+            "c": "Comprar no meio",
+            "d": "Não operar"
+        },
+        "correct": "b",
+        "explanation": "Comprar barato (no suporte do canal) e vender caro (na resistência do canal), a favor da tendência."
+    },
+    {
+        "question": "Se o preço rompe a linha superior de um Canal de Alta, isso indica:",
+        "options": {
+            "a": "Sobrecompra / Clímax (Euforia)",
+            "b": "Reversão para baixa",
+            "c": "Que o canal acabou",
+            "d": "Nada"
+        },
+        "correct": "a",
+        "explanation": "O mercado ficou tão otimista que superou até o limite do canal. Geralmente insustentável e volta rápido (Overbought)."
+    },
+    {
+        "question": "Um Canal Horizontal também é conhecido como:",
+        "options": {
+            "a": "Retângulo ou Lateralização",
+            "b": "Triângulo",
+            "c": "Bandeira",
+            "d": "Oco"
+        },
+        "correct": "a",
+        "explanation": "Preço preso entre suporte e resistência horizontais paralelos."
+    },
+    {
+        "question": "A 'Linha Central' de um canal (Midline) atua como:",
+        "options": {
+            "a": "Enfeite",
+            "b": "Zona de suporte/resistência intermediária",
+            "c": "Ponto de stop",
+            "d": "Nada"
+        },
+        "correct": "b",
+        "explanation": "Muitas vezes o preço para no meio do caminho. A linha central é um alvo parcial excelente."
+    },
+    {
+        "question": "Uma 'Bandeira de Alta' é, na verdade:",
+        "options": {
+            "a": "Um pequeno canal de baixa (correção) após um mastro de alta",
+            "b": "Um canal de alta gigante",
+            "c": "Um triângulo",
+            "d": "Uma reversão"
+        },
+        "correct": "a",
+        "explanation": "O preço sobe (mastro), descansa num canalzinho descendente (bandeira) e depois rompe para cima."
+    },
+    {
+        "question": "Se o preço não consegue atingir o topo do canal e começa a cair, isso sinaliza:",
+        "options": {
+            "a": "Força",
+            "b": "Fraqueza da tendência e provável rompimento da LTA (fundo)",
+            "c": "Continuidade",
+            "d": "Compra"
+        },
+        "correct": "b",
+        "explanation": "Se nem chegou no teto, os compradores estão fracos. A chance de perder o chão (fundo do canal) aumentou."
+    },
+    {
+        "question": "Operar contra a tendência dentro de um canal (ex: vender no topo de canal de alta):",
+        "options": {
+            "a": "É proibido",
+            "b": "É possível (Scalp), mas mais arriscado e exige alvos curtos",
+            "c": "É a melhor operação",
+            "d": "É swing trade"
+        },
+        "correct": "b",
+        "explanation": "O preço pode rasgar para cima na tendência. Contra-tendência exige mão leve e dedo rápido."
+    },
+    {
+        "question": "O 'Canal Estreito' indica:",
+        "options": {
+            "a": "Tendência muito forte e direcional (Impulso)",
+            "b": "Indecisão",
+            "c": "Lateralidade",
+            "d": "Reversão"
+        },
+        "correct": "a",
+        "explanation": "Correções são minúsculas. O preço sobe quase em linha reta. Melhor não operar contra."
+    },
+    {
+        "question": "O 'Canal Amplo' permite:",
+        "options": {
+            "a": "Operar apenas a favor",
+            "b": "Operar nas duas pontas (compra no fundo, venda no topo) com mais tranquilidade",
+            "c": "Não operar",
+            "d": "Alavancagem máxima"
+        },
+        "correct": "b",
+        "explanation": "Tem espaço suficiente para o preço andar e pagar o risco antes de virar."
+    },
+    {
+        "question": "Ao romper um canal horizontal (Retângulo) para cima, o alvo projetado é:",
+        "options": {
+            "a": "100 pontos",
+            "b": "A altura (amplitude) do canal projetada para cima",
+            "c": "Infinito",
+            "d": "Metade do canal"
+        },
+        "correct": "b",
+        "explanation": "Técnica clássica (Measured Move). Se o retângulo tem R$ 1,00 de altura, o alvo é subir R$ 1,00 a partir do rompimento."
+    },
+    {
+        "question": "Canais inclinados para baixo (Canal de Baixa) costumam romper para:",
+        "options": {
+            "a": "Baixo (Aceleração)",
+            "b": "Cima (Reversão) ou lateralizar antes de reverter",
+            "c": "Nenhum lado",
+            "d": "Esquerda"
+        },
+        "correct": "b",
+        "explanation": "Canais corretivos (cunhas/bandeiras) geralmente rompem contra sua inclinação. Mas cuidado, canais de tendência primária podem durar anos."
+    },
+    {
+        "question": "Ferramenta comum para traçar canais automáticos:",
+        "options": {
+            "a": "Regressão Linear ou Canal de Desvio Padrão",
+            "b": "Média Móvel",
+            "c": "RSI",
+            "d": "MACD"
+        },
+        "correct": "a",
+        "explanation": "Estatística pura. Traça a linha média e os desvios (bordas) onde o preço tende a ficar contido."
+    },
+    {
+        "question": "O que é 'Operar as bordas'?",
+        "options": {
+            "a": "Comprar e vender nos limites extremos do canal",
+            "b": "Comprar no meio",
+            "c": "Operar rompimento",
+            "d": "Não fazer nada"
+        },
+        "correct": "a",
+        "explanation": "Estratégia de Range Trading. Confia-se que o preço respeitará o canal."
+    },
+    {
+        "question": "Um rompimento falso de canal costuma gerar:",
+        "options": {
+            "a": "Um movimento forte na direção oposta (retorno ao canal com violência)",
+            "b": "Nada",
+            "c": "Lateralidade",
+            "d": "Pequena correção"
+        },
+        "correct": "a",
+        "explanation": "Armadilha. Quem operou o rompimento estopa, impulsionando o preço de volta para o meio ou lado oposto do canal."
+    },
+    {
+        "question": "Se o preço rompe o fundo de um Canal de Alta, a tendência mudou para baixa imediatamente?",
+        "options": {
+            "a": "Sim, venda a casa",
+            "b": "Não necessariamente. Pode ser apenas uma lateralização ou um canal mais amplo se formando",
+            "c": "Sim, 100% de certeza",
+            "d": "O mercado acabou"
+        },
+        "correct": "b",
+        "explanation": "Rompimentos de canal muitas vezes evoluem para 'Trading Range' (Lateralidade) antes de reverterem de fato."
+    },
+    {
+        "question": "Qual a relação entre Canais e Ondas de Elliott?",
+        "options": {
+            "a": "Nenhuma",
+            "b": "Canais ajudam a identificar os limites das ondas impulsivas e corretivas",
+            "c": "São opostos",
+            "d": "Elliott não usa gráficos"
+        },
+        "correct": "b",
+        "explanation": "Elliottistas usam canais para projetar onde a Onda 4 ou 5 pode terminar."
+    },
+    {
+        "question": "Um 'Canal de Alta' perfeito tem topos e fundos:",
+        "options": {
+            "a": "Descendentes",
+            "b": "Ascendentes e paralelos",
+            "c": "Aleatórios",
+            "d": "Horizontais"
+        },
+        "correct": "b",
+        "explanation": "A simetria paralela é a marca registrada de um canal algorítmico bem definido."
+    },
+    {
+        "question": "Quando o preço anda de lado após uma alta forte, chamamos esse canal horizontal de:",
+        "options": {
+            "a": "Acumulação ou Reacumulação (Descanso)",
+            "b": "Distribuição (Topo)",
+            "c": "Qualquer um dos dois, depende do contexto",
+            "d": "Crash"
+        },
+        "correct": "c",
+        "explanation": "Se for para continuar subindo, é reacumulação. Se for para reverter, é distribuição. O rompimento dirá."
+    }
+]

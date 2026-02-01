@@ -1,0 +1,116 @@
+[
+    {
+        "question": "Analise a imagem. O preço está subindo (fazendo topos mais altos), mas o volume está diminuindo. Isso indica:",
+        "image": "vol_divergencia_baixa.png",
+        "options": {
+            "a": "Força total na tendência",
+            "b": "Divergência de Baixa (Fraqueza na compra)",
+            "c": "Acumulação",
+            "d": "Sinal de compra agressiva"
+        },
+        "correct": "b",
+        "explanation": "É uma anomalia. Se o preço sobe, o esforço (volume) deveria subir. Se o volume cai, a gasolina está acabando e a reversão é provável."
+    },
+    {
+        "question": "Veja o destaque na imagem: Um candle pequeno no topo com uma barra de volume GIGANTE. O que isso sugere?",
+        "image": "vol_anomalia_topo.png",
+        "options": {
+            "a": "Absorção / Stopping Volume",
+            "b": "Rompimento com força",
+            "c": "Continuação da alta",
+            "d": "Nada demais"
+        },
+        "correct": "a",
+        "explanation": "Esforço vs Resultado: Muito esforço (volume alto) gerou pouco resultado (candle pequeno). Significa que vendedores absorveram toda a compra. Sinal de topo."
+    },
+    {
+        "question": "O gráfico mostra o 'Volume Profile' na direita. O que as barras horizontais representam?",
+        "image": "vol_profile.png",
+        "options": {
+            "a": "Volume por Tempo",
+            "b": "Volume por Nível de Preço",
+            "c": "Ordens de venda apenas",
+            "d": "Médias móveis"
+        },
+        "correct": "b",
+        "explanation": "O Volume Profile mostra quanto foi negociado em cada preço. As barras maiores indicam zonas de alto interesse (POC) e aceitação."
+    },
+    {
+        "question": "Analise a imagem 'No Demand'. O mercado sobe lentamente com velas pequenas e volume decrescente. A interpretação é:",
+        "image": "vol_no_demand.png",
+        "options": {
+            "a": "Falta de interesse comprador profissional (Sem Demanda)",
+            "b": "Pressão de compra oculta",
+            "c": "Início de um Bull Market",
+            "d": "Zona de suporte forte"
+        },
+        "correct": "a",
+        "explanation": "O mercado 'flutua' para cima sem volume. O Smart Money não está participando. Geralmente precede uma queda forte."
+    },
+    {
+        "question": "No Volume Profile, o ponto com a maior barra horizontal (onde houve mais negociação) é chamado de:",
+        "options": {
+            "a": "POC (Point of Control)",
+            "b": "VWAP",
+            "c": "Value Area High",
+            "d": "Delta"
+        },
+        "correct": "a",
+        "explanation": "O POC é o 'Preço Justo' do dia. O mercado tende a ser atraído para ele como um imã."
+    },
+    {
+        "question": "Uma 'Barra de Ignição' (Breakout) saudável deve ter:",
+        "options": {
+            "a": "Volume Baixo",
+            "b": "Volume Alto e corpo grande a favor do rompimento",
+            "c": "Muito pavio",
+            "d": "Volume decrescente"
+        },
+        "correct": "b",
+        "explanation": "Para romper uma barreira, é preciso energia. O volume alto confirma que o rompimento é verdadeiro e tem apoio institucional."
+    },
+    {
+        "question": "Se o preço cai forte, mas o volume é extremamente baixo (seco):",
+        "options": {
+            "a": "É uma venda agressiva",
+            "b": "Provável teste de oferta (sem pressão de venda real), podendo ser apenas uma correção",
+            "c": "O mercado vai quebrar",
+            "d": "Sinal de venda forte"
+        },
+        "correct": "b",
+        "explanation": "Queda sem volume geralmente é realização de lucro ou teste, não uma reversão de tendência. A tendência de alta deve continuar."
+    },
+    {
+        "question": "O indicador OBV (On Balance Volume) é usado para:",
+        "options": {
+            "a": "Identificar divergências entre fluxo acumulado e preço",
+            "b": "Medir a volatilidade",
+            "c": "Ver o spread",
+            "d": "Calcular médias"
+        },
+        "correct": "a",
+        "explanation": "O OBV rastreia o saldo de volume. Se o preço está lateral, mas o OBV sobe, indica acumulação (Smart Money comprando escondido)."
+    },
+    {
+        "question": "O que significa 'Delta Positivo' no footprint ou fluxo?",
+        "options": {
+            "a": "Vendedores agrediram mais",
+            "b": "Compradores agrediram mais (Saldo comprador)",
+            "c": "O mercado ficou parado",
+            "d": "Volume zero"
+        },
+        "correct": "b",
+        "explanation": "Delta é a diferença entre agressão de compra e venda. Delta positivo sugere iniciativa dos compradores."
+    },
+    {
+        "question": "O conceito de VSA (Volume Spread Analysis) foca na relação entre:",
+        "options": {
+            "a": "Preço e Tempo",
+            "b": "Volume (Esforço) e Spread/Tamanho da Vela (Resultado)",
+            "c": "Médias e RSI",
+            "d": "Notícias e Preço"
+        },
+        "correct": "b",
+        "explanation": "O VSA busca anomalias. Se houver muito volume (esforço) mas a vela for pequena ou tiver muito pavio (resultado pobre), algo está errado."
+    }
+]

@@ -1,0 +1,222 @@
+[
+    {
+        "question": "O que representa o 'Corpo Real' de um candlestick?",
+        "options": {
+            "a": "A diferença entre a Máxima e a Mínima",
+            "b": "A diferença entre a Abertura e o Fechamento",
+            "c": "Apenas o preço de fechamento",
+            "d": "A volatilidade total do dia"
+        },
+        "correct": "b",
+        "explanation": "O corpo real ilustra o intervalo entre o preço de abertura e o de fechamento. Se o fechamento for maior que a abertura, o corpo é de alta (geralmente verde); caso contrário, é de baixa."
+    },
+    {
+        "question": "Se um candle é verde (ou branco), o que isso indica sobre o preço?",
+        "options": {
+            "a": "O preço de fechamento foi menor que a abertura",
+            "b": "O preço de fechamento foi igual à abertura",
+            "c": "O preço de fechamento foi maior que a abertura",
+            "d": "O mercado ficou lateral"
+        },
+        "correct": "c",
+        "explanation": "Velas verdes indicam pressão compradora, onde o preço encerrou o período acima do preço em que começou."
+    },
+    {
+        "question": "O que significam os 'Pavios' (ou Sombras) superiores de um candle?",
+        "options": {
+            "a": "O preço de abertura",
+            "b": "O preço mínimo alcançado no período",
+            "c": "O preço máximo alcançado no período",
+            "d": "A média do preço"
+        },
+        "correct": "c",
+        "explanation": "O pavio superior mostra até onde os compradores conseguiram empurrar o preço (máxima) antes de ele recuar para o fechamento."
+    },
+    {
+        "question": "Em um candle de baixa (vermelho), onde fica o preço de Abertura?",
+        "options": {
+            "a": "Na parte inferior do corpo",
+            "b": "Na parte superior do corpo",
+            "c": "No final do pavio inferior",
+            "d": "No topo do pavio superior"
+        },
+        "correct": "b",
+        "explanation": "Num candle de baixa, o preço cai ao longo do tempo. Portanto, ele abre em cima e fecha em baixo."
+    },
+    {
+        "question": "O que significa a sigla OHLC na leitura de candles?",
+        "options": {
+            "a": "Open, High, Low, Close",
+            "b": "Over, High, Last, Close",
+            "c": "Open, Half, Low, Center",
+            "d": "Only High Low Close"
+        },
+        "correct": "a",
+        "explanation": "OHLC resume os 4 dados principais: Abertura (Open), Máxima (High), Mínima (Low) e Fechamento (Close)."
+    },
+    {
+        "question": "Se um candle não tem pavios (nem superior, nem inferior), ele é chamado de:",
+        "options": {
+            "a": "Doji",
+            "b": "Marubozu",
+            "c": "Martelo",
+            "d": "Spinning Top"
+        },
+        "correct": "b",
+        "explanation": "Um Marubozu é um candle de força total, sem sombras, indicando que o mercado abriu numa ponta e fechou na outra extremidade sem recuos."
+    },
+    {
+        "question": "Um pavio inferior muito longo geralmente indica:",
+        "options": {
+            "a": "Rejeição da alta",
+            "b": "Rejeição da baixa (força compradora)",
+            "c": "Mercado sem volatilidade",
+            "d": "Continuação da queda"
+        },
+        "correct": "b",
+        "explanation": "Um longo pavio inferior mostra que os vendedores tentaram derrubar o preço, mas os compradores entraram com força e empurraram tudo de volta para cima."
+    },
+    {
+        "question": "Qual a principal vantagem do Candlestick sobre o gráfico de linha simples?",
+        "options": {
+            "a": "É mais bonito visualmente",
+            "b": "Mostra apenas o fechamento, simplificando a visão",
+            "c": "Mostra a volatilidade e a emoção (máximas e mínimas) do período",
+            "d": "Não tem vantagem, é apenas preferência"
+        },
+        "correct": "c",
+        "explanation": "O gráfico de linha esconde o que aconteceu durante o período. O candlestick conta a história completa da batalha entre touros e ursos."
+    },
+    {
+        "question": "Em um gráfico de 15 minutos, cada vela representa:",
+        "options": {
+            "a": "1 hora de negociação",
+            "b": "15 minutos de negociação",
+            "c": "1 dia de negociação",
+            "d": "15 transações realizadas"
+        },
+        "correct": "b",
+        "explanation": "O 'Timeframe' determina o tempo de formação de cada vela. Em M15, cada desenho resume 15 minutos de dados."
+    },
+    {
+        "question": "O que é um candle de 'indecisão'?",
+        "options": {
+            "a": "Um candle com corpo grande e sem pavio",
+            "b": "Um candle com corpo pequeno e pavios para ambos os lados",
+            "c": "Um candle que não tem cor",
+            "d": "Um candle que fecha na máxima"
+        },
+        "correct": "b",
+        "explanation": "Candles com corpos pequenos e sombras longas (como Doji ou Spinning Top) mostram que nem compradores nem vendedores venceram a batalha naquele período."
+    },
+    {
+        "question": "Se a Mínima (Low) é igual ao Fechamento (Close) em um candle de baixa, isso significa:",
+        "options": {
+            "a": "Que o candle não tem pavio inferior",
+            "b": "Que o candle não tem pavio superior",
+            "c": "Que o mercado subiu",
+            "d": "Que é um Doji"
+        },
+        "correct": "a",
+        "explanation": "Se ele fechou exatamente no preço mais baixo do período, não sobra espaço para desenhar a sombra inferior. É um sinal de força vendedora."
+    },
+    {
+        "question": "A distância total entre a Máxima e a Mínima do candle é chamada de:",
+        "options": {
+            "a": "Corpo",
+            "b": "Spread",
+            "c": "Range (Amplitude)",
+            "d": "Gap"
+        },
+        "correct": "c",
+        "explanation": "O Range ou Amplitude mostra a volatilidade total daquele período, independentemente de onde o preço abriu ou fechou."
+    },
+    {
+        "question": "Quem é historicamente creditado pelo desenvolvimento dos Candlesticks?",
+        "options": {
+            "a": "Charles Dow",
+            "b": "Munehisa Homma",
+            "c": "Satoshi Nakamoto",
+            "d": "Warren Buffett"
+        },
+        "correct": "b",
+        "explanation": "Munehisa Homma, um comerciante de arroz japonês do século 18, é considerado o pai dos gráficos de velas."
+    },
+    {
+        "question": "Um candle com corpo minúsculo ou inexistente, onde Abertura = Fechamento, é um:",
+        "options": {
+            "a": "Marubozu",
+            "b": "Martelo",
+            "c": "Doji",
+            "d": "Engolfo"
+        },
+        "correct": "c",
+        "explanation": "O Doji representa o equilíbrio total. O mercado abriu, oscilou e voltou a fechar exatamente no mesmo preço."
+    },
+    {
+        "question": "Em um gráfico Diário, quando um novo candle começa a ser desenhado?",
+        "options": {
+            "a": "A cada hora",
+            "b": "No início do pregão (abertura do mercado)",
+            "c": "No meio do dia",
+            "d": "Quando o volume aumenta"
+        },
+        "correct": "b",
+        "explanation": "No gráfico diário, o candle abre com o primeiro negócio do dia e só fecha quando o pregão encerra."
+    },
+    {
+        "question": "O que indica um candle de corpo grande verde?",
+        "options": {
+            "a": "Força Vendedora Dominante",
+            "b": "Força Compradora Dominante",
+            "c": "Indecisão do mercado",
+            "d": "Volume baixo"
+        },
+        "correct": "b",
+        "explanation": "Corpo grande verde significa que os compradores controlaram o período do início ao fim, empurrando o preço para longe da abertura."
+    },
+    {
+        "question": "Qual é a cor padrão para candles de baixa na maioria das plataformas ocidentais?",
+        "options": {
+            "a": "Verde ou Branco",
+            "b": "Vermelho ou Preto",
+            "c": "Azul ou Amarelo",
+            "d": "Roxo"
+        },
+        "correct": "b",
+        "explanation": "Tradicionalmente, candles de queda são representados em Vermelho ou Preto (preenchido)."
+    },
+    {
+        "question": "Se um candle tem pavio superior longo e corpo pequeno na parte inferior, parece uma:",
+        "options": {
+            "a": "Estrela Cadente (Shooting Star)",
+            "b": "Martelo",
+            "c": "Marubozu",
+            "d": "Engolfo"
+        },
+        "correct": "a",
+        "explanation": "Visualmente é uma Estrela Cadente (ou Martelo Invertido dependendo do contexto), indicando que o preço tentou subir mas foi rejeitado fortemente."
+    },
+    {
+        "question": "A 'Sombra' de um candle é útil para identificar:",
+        "options": {
+            "a": "O volume financeiro",
+            "b": "Zonas de resistência e suporte (rejeição de preço)",
+            "c": "O horário de abertura",
+            "d": "O nome da corretora"
+        },
+        "correct": "b",
+        "explanation": "As sombras mostram onde o preço foi 'negado'. Se há muitas sombras em uma região, ali existe uma barreira de preço (suporte ou resistência)."
+    },
+    {
+        "question": "Para confirmar um padrão de candle, o ideal é:",
+        "options": {
+            "a": "Operar imediatamente assim que ele se forma",
+            "b": "Aguardar o fechamento do candle e analisar o contexto (próximo candle)",
+            "c": "Ignorar o volume",
+            "d": "Olhar apenas a cor"
+        },
+        "correct": "b",
+        "explanation": "Candles isolados podem falhar. O contexto e a confirmação do candle seguinte aumentam drasticamente a taxa de acerto."
+    }
+]

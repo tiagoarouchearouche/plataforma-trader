@@ -1,0 +1,222 @@
+[
+    {
+        "question": "Por que um 'Martelo' no meio de uma lateralização tem pouco valor?",
+        "options": {
+            "a": "Porque o Martelo só funciona em dias de chuva",
+            "b": "Porque candles de reversão precisam de uma tendência prévia para reverter. Sem tendência, é apenas ruído",
+            "c": "Porque o mercado lateral não tem volume",
+            "d": "Ele tem muito valor, deve-se comprar sempre"
+        },
+        "correct": "b",
+        "explanation": "O contexto é rei. Um padrão de reversão só faz sentido se houver um movimento anterior cansado (ex: uma queda) para ser revertido."
+    },
+    {
+        "question": "Se um candle de força (Marubozu) rompe uma resistência mas o Volume é muito baixo, o que isso sugere?",
+        "options": {
+            "a": "Uma armadilha ou falso rompimento (lack of interest)",
+            "b": "Uma oportunidade garantida",
+            "c": "Que os grandes bancos estão comprando escondido",
+            "d": "Que o preço vai dobrar"
+        },
+        "correct": "a",
+        "explanation": "Volume valida o preço. Um rompimento sem volume indica que os grandes players não participaram do movimento, aumentando a chance de o preço voltar."
+    },
+    {
+        "question": "O que significa psicologicamente uma longa sombra superior em uma zona de resistência?",
+        "options": {
+            "a": "Que os compradores estão fortíssimos",
+            "b": "Que os vendedores defenderam aquela região agressivamente, rejeitando preços mais altos",
+            "c": "Que o mercado vai subir",
+            "d": "Indecisão irrelevante"
+        },
+        "correct": "b",
+        "explanation": "A sombra mostra o rastro da batalha. O preço foi até lá em cima, mas a venda foi tão forte que empurrou tudo de volta."
+    },
+    {
+        "question": "O conceito de 'Stop Run' ou 'Violinada' (Armadilha) ocorre quando:",
+        "options": {
+            "a": "O preço deixa uma sombra rompendo o suporte para pegar stops, mas fecha acima dele",
+            "b": "O mercado fica parado",
+            "c": "O preço respeita o suporte perfeitamente",
+            "d": "Aparece um Doji"
+        },
+        "correct": "a",
+        "explanation": "Os grandes players buscam liquidez onde a maioria coloca o Stop Loss (abaixo do suporte). Eles empurram o preço lá para comprar barato e depois sobem."
+    },
+    {
+        "question": "Se você vê 5 candles verdes seguidos, mas os corpos estão ficando cada vez menores, isso indica:",
+        "options": {
+            "a": "Aceleração da tendência",
+            "b": "Perda de momentum (força) e possível exaustão",
+            "c": "Entrada de volume",
+            "d": "Que a tendência vai durar para sempre"
+        },
+        "correct": "b",
+        "explanation": "Corpos diminuindo significam que a 'gasolina' está acabando. Embora ainda suba, a convicção compradora está desaparecendo."
+    },
+    {
+        "question": "Por que operar padrões de candle a favor da tendência (Pullback) é mais seguro do que operar contra a tendência (Reversão)?",
+        "options": {
+            "a": "Porque a tendência é sua amiga ('The trend is your friend')",
+            "b": "Porque reversões são mais fáceis",
+            "c": "Não há diferença",
+            "d": "Porque o stop loss é maior"
+        },
+        "correct": "a",
+        "explanation": "Nadar a favor da correnteza gasta menos energia. Um Martelo num pullback de alta tem a força da tendência maior empurrando junto."
+    },
+    {
+        "question": "Um candle enorme (exagerado) após uma longa tendência de alta geralmente sinaliza:",
+        "options": {
+            "a": "Início de nova tendência",
+            "b": "Clímax de exaustão (Euforia final antes da queda)",
+            "c": "Volume baixo",
+            "d": "Continuidade segura"
+        },
+        "correct": "b",
+        "explanation": "Quando todos já compraram e a euforia é máxima, forma-se um candle gigante. Geralmente é o último suspiro antes dos 'tubarões' começarem a vender."
+    },
+    {
+        "question": "O que é um 'Falso Rompimento' (False Breakout)?",
+        "options": {
+            "a": "O preço fecha além do nível e continua",
+            "b": "O preço perfura um nível chave durante o candle, mas fecha o corpo dentro da zona anterior",
+            "c": "O gráfico trava",
+            "d": "Um gap de alta"
+        },
+        "correct": "b",
+        "explanation": "Visualmente, deixa apenas um pavio além do suporte/resistência. Mostra que tentaram romper, mas falharam no fechamento."
+    },
+    {
+        "question": "A psicologia por trás de um Doji após uma longa vela verde é:",
+        "options": {
+            "a": "Os compradores continuam com força total",
+            "b": "O mercado parou para respirar e está em dúvida se continua ou reverte",
+            "c": "Os vendedores ganharam",
+            "d": "Erro de leitura"
+        },
+        "correct": "b",
+        "explanation": "O Doji quebra a inércia. A certeza da alta (vela verde) foi substituída pela incerteza (Doji). É um alerta amarelo."
+    },
+    {
+        "question": "Por que devemos esperar o fechamento do candle para tomar uma decisão?",
+        "options": {
+            "a": "Porque é regra da CVM",
+            "b": "Porque um candle que parece um Marubozu verde aos 59 minutos pode virar uma Estrela Cadente no último minuto",
+            "c": "Não precisa esperar",
+            "d": "Para pagar mais taxas"
+        },
+        "correct": "b",
+        "explanation": "A 'batalha' do período só termina no fechamento. Entrar antes é apostar em um resultado que ainda não se concretizou."
+    },
+    {
+        "question": "O 'Tamanho Relativo' de um candle significa comparar o candle atual com:",
+        "options": {
+            "a": "O gráfico de outro ativo",
+            "b": "Os últimos 10-20 candles anteriores",
+            "c": "O candle do ano passado",
+            "d": "O tamanho do monitor"
+        },
+        "correct": "b",
+        "explanation": "Um candle de 100 pontos é grande? Depende. Se os anteriores tinham 10 pontos, é gigante. Se tinham 200, é pequeno (volatilidade contraída)."
+    },
+    {
+        "question": "Quando um padrão falha (ex: Martelo é rompido para baixo), o que geralmente acontece?",
+        "options": {
+            "a": "O mercado para",
+            "b": "O preço tende a acelerar na direção oposta (Stop Run dos comprados)",
+            "c": "O padrão volta a funcionar",
+            "d": "Nada"
+        },
+        "correct": "b",
+        "explanation": "Quem comprou no Martelo colocou o stop logo abaixo. Se o preço perde a mínima, esses stops são acionados (vendas), acelerando a queda."
+    },
+    {
+        "question": "Em 'Zonas de Confluência' (ex: Suporte + Média Móvel + Fibo), os padrões de candle são:",
+        "options": {
+            "a": "Irrelevantes",
+            "b": "Muito mais assertivos (High Probability)",
+            "c": "Menos assertivos",
+            "d": "Perigosos"
+        },
+        "correct": "b",
+        "explanation": "Quanto mais motivos técnicos apontam para a mesma região, maior a chance de reação do mercado a um padrão de candle ali."
+    },
+    {
+        "question": "A cor do candle representa o resultado, mas a 'Amplitude' (Tamanho total) representa:",
+        "options": {
+            "a": "A tendência",
+            "b": "A volatilidade e a intensidade da batalha",
+            "c": "O horário",
+            "d": "O lucro"
+        },
+        "correct": "b",
+        "explanation": "Candles pequenos = mercado calmo/apático. Candles grandes = mercado agitado/emocional."
+    },
+    {
+        "question": "O que é um 'Gap de Exaustão'?",
+        "options": {
+            "a": "Um gap no início da tendência",
+            "b": "Um último salto de preço no final de uma tendência, seguido de reversão imediata",
+            "c": "Um dia sem negociação",
+            "d": "Um gap pequeno"
+        },
+        "correct": "b",
+        "explanation": "É o último suspiro. O mercado abre com gap tentando subir, mas não encontra novos compradores e desaba, fechando o gap rapidamente."
+    },
+    {
+        "question": "Se o gráfico Diário mostra um Martelo, mas o gráfico de 5 minutos mostra tendência forte de baixa:",
+        "options": {
+            "a": "O de 5 minutos manda mais",
+            "b": "O Diário tem maior peso hierárquico (tendência maior)",
+            "c": "Os dois se anulam",
+            "d": "Vende-se no diário"
+        },
+        "correct": "b",
+        "explanation": "Timeframes maiores dominam os menores. O Martelo no diário sugere que a queda dos 5 minutos está prestes a acabar."
+    },
+    {
+        "question": "Psicologia do Marubozu Preto (Baixa) rompendo suporte:",
+        "options": {
+            "a": "Pânico e convicção vendedora. Quem comprou no suporte está 'preso' e vai vender para estopar",
+            "b": "Esperança de alta",
+            "c": "Lateralidade",
+            "d": "Força compradora"
+        },
+        "correct": "a",
+        "explanation": "Rompimento com vela de força cria um desequilíbrio emocional. O medo de perder mais faz os comprados venderem a qualquer preço."
+    },
+    {
+        "question": "Por que 'Pavios se preenchem' (Wicks get filled)?",
+        "options": {
+            "a": "É uma lenda urbana",
+            "b": "Porque o mercado tende a re-testar zonas de liquidez onde o preço já esteve",
+            "c": "Porque o gráfico não gosta de espaços vazios",
+            "d": "Apenas em tendência de alta"
+        },
+        "correct": "b",
+        "explanation": "Se o preço foi até lá (pavio), existe interesse. Frequentemente o mercado volta para ver se ainda tem liquidez naquela ponta."
+    },
+    {
+        "question": "Qual a melhor atitude ao ver um padrão de candle 'quase perfeito' mas em uma zona de 'nada' (no meio do gráfico)?",
+        "options": {
+            "a": "Operar com metade da mão",
+            "b": "Ignorar (No Man's Land)",
+            "c": "Entrar agressivo",
+            "d": "Inverter a mão"
+        },
+        "correct": "b",
+        "explanation": "Se não tem suporte, resistência, média ou fibo, o candle está flutuando no vácuo. A probabilidade de acerto cai drasticamente."
+    },
+    {
+        "question": "A 'Profecia Autorrealizável' na análise técnica significa que:",
+        "options": {
+            "a": "O gráfico prevê o futuro magicamente",
+            "b": "Como muitos traders olham os mesmos padrões (ex: Martelo), todos compram juntos, fazendo o preço subir",
+            "c": "O mercado é manipulado",
+            "d": "Padrões não funcionam"
+        },
+        "correct": "b",
+        "explanation": "A análise técnica funciona em grande parte porque a massa de participantes reage aos mesmos sinais visuais simultaneamente."
+    }
+]

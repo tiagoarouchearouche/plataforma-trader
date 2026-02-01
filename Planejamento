@@ -1,0 +1,194 @@
+Quero criar um aplicativo web educacional para traders, inspirado no modelo do Duolingo, com foco em aprendizado progressivo, gamificação e prática simulada de trading.
+A primeira versão será web, desenvolvida em Python com Django (backend) e frontend web tradicional (HTML, CSS, JS ou framework moderno se necessário).
+🎯 Objetivo do App
+Ensinar trading do nível iniciante ao intermediário por meio de:
+
+Conteúdo estruturado em unidades
+Sistema de pontuação, moedas e progressão
+Liberação de módulos conforme desempenho
+Simulação prática de operações (compra/venda)
+
+🔐 Funcionalidades Essenciais
+
+[1] Autenticação
+    Página de Login
+    Página de Cadastro
+    Cadastro via:
+    Email e senha
+    Login com Google (OAuth 2.0)
+    Recuperação de senha
+
+[2] Estrutura Educacional – Seção 01 (Teórica)
+A Seção 01 será obrigatória e funcionará como pré-requisito para a Seção 02.
+Estrutura:
+14 Unidades
+Cada unidade terá até 10 sub-unidades
+Cada sub-unidade conterá:
+Conteúdo teórico (texto, imagem, gráfico)
+Mini questionário (quiz)
+Pontuação ao concluir
+Unidades da Seção 01:
+Leitura dos Candlesticks
+Introdução ao Price Action
+Forças Dominantes do Mercado
+Padrões de Candles
+Tipos de Movimentos
+Tendências
+Suportes e Resistências
+Linhas de Tendência
+Padrões Gráficos
+Médias Móveis
+Estratégias Validadas
+Manejo de Risco
+Tipos de Ordens
+Revisão e Avaliação Final
+
+
+
+Menu Seção de Unidades do Curso e cada uma dessas seções de 1 a 14 terão 10 Sub-unidades Que vai começar com:
+Seção 01
+1 - Leitura dos Candlesticks
+
+2 - Introdução ao Price Action
+
+
+3 - Forças dominantes
+
+
+4 - Padrões de Candles
+6 - Tipos de Movimentos
+7 - Tendências
+8 - Suportes e Resistências
+9 - Linhas de Tendências
+10 - Padrões Gráficos
+11 - Médias Móveis
+12 - Estratégias Validadas
+13 - Manejo de Risco
+14 - Tipos de Ordens
+
+
+
+🎮 Gamificação
+Pontos por:
+Concluir lições
+Acertar quizzes
+Sistema de moedas
+As moedas são usadas para:
+Liberar a Seção 02
+Acessar exercícios práticos
+
+[3] Seção 02 – Treinamento Prático
+A Seção 02 simula uma corretora fictícia.
+Funcionalidades:
+Gráficos simulados
+Situações reais de mercado
+Perguntas do tipo:
+Comprar / Vender / Aguardar
+Feedback imediato
+Sistema de acerto, erro e pontuação
+
+Regras:
+O usuário só acessa a Seção 02 após atingir uma quantidade mínima de moedas na Seção 01.
+
+🛠️ Requisitos Técnicos
+Backend: Django + Django REST Framework
+Banco de dados: PostgreSQL (ou SQLite no MVP)
+Autenticação: Django Auth + Google OAuth
+Sistema de permissões e progressão do usuário
+Estrutura escalável para app mobile futuramente
+
+📦 Resultado Esperado
+Arquitetura do projeto
+Modelagem do banco de dados
+Fluxo de telas
+Ordem de implementação
+Sugestões técnicas para gamificação e simulação
+Gere tudo de forma estruturada, clara e orientada a boas práticas de desenvolvimento.
+
+🧭 2️⃣ PASSO A PASSO DO PROJETO (DO ZERO)
+Agora vamos ao mapa do projeto, como um tech lead faria.
+🔹 ETAPA 1 – Planejamento & Arquitetura
+✔️ Definir MVP
+Para a primeira versão:
+Web apenas
+Conteúdo básico (texto + quiz)
+Simulação simples (sem mercado em tempo real)
+✔️ Stack
+Django
+Django REST Framework
+Django Allauth (Google Login)
+Bootstrap ou Tailwind (frontend rápido)
+
+🔹 ETAPA 2 – Estrutura do Projeto Django
+
+django-admin startproject tradereducd traderedu
+django-admin startapp users
+django-admin startapp courses
+django-admin startapp gamification
+django-admin startapp simulator
+
+🔹 ETAPA 3 – Login e Cadastro [1]
+Funcionalidades:
+Cadastro padrão
+Login
+Login com Google
+Perfil do usuário
+Modelos:
+User (extendido)
+Perfil do usuário:
+Pontos
+Moedas
+Progresso
+
+🔹 ETAPA 4 – Seção 01 (Curso Teórico) [2]
+Modelos:
+Curso
+Unidade
+Subunidade
+Conteúdo
+Quiz
+Perguntas
+Respostas
+Progresso do Usuário
+Fluxo:
+Usuário entra na unidade
+Estuda conteúdo
+Responde quiz
+Ganha pontos/moedas
+Progresso salvo
+
+🔹 ETAPA 5 – Sistema de Gamificação
+Regras:
+Pontos por acerto
+Moedas acumuláveis
+Bloqueio/desbloqueio de conteúdo
+Modelos:
+Wallet
+Transaction
+Rules
+
+🔹 ETAPA 6 – Seção 02 (Simulador) [3]
+Funcionalidades:
+Gráfico estático/simulado
+Situação do mercado
+Botões:
+Comprar
+Vender
+Aguardar
+Avaliação:
+Regra definida (ex: tendência + suporte)
+Feedback instantâneo
+Ajuste de pontuação
+
+🔹 ETAPA 7 – UX & Engajamento
+Barra de progresso
+Badges
+Níveis
+Feedback visual (acertos/erros)
+
+🔹 ETAPA 8 – Próximos Passos (Futuro)
+App mobile (React Native / Flutter)
+Backtesting real
+Integração com APIs de mercado
+Ranking de usuários
+Modo competitivo

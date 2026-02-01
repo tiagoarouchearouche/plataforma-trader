@@ -1,0 +1,222 @@
+[
+    {
+        "question": "O padrão 'Estrela da Manhã' (Morning Star) é composto por três velas e indica:",
+        "options": {
+            "a": "Continuação de baixa",
+            "b": "Reversão Altista (Fundo)",
+            "c": "Reversão Baixista (Topo)",
+            "d": "Lateralidade"
+        },
+        "correct": "b",
+        "explanation": "É um padrão clássico de fundo. 1) Vela de baixa longa; 2) Vela pequena (estrela) com gap; 3) Vela de alta que fecha bem dentro da primeira."
+    },
+    {
+        "question": "Qual é a estrutura visual dos 'Três Soldados Brancos' (Three White Soldiers)?",
+        "options": {
+            "a": "Três velas vermelhas grandes",
+            "b": "Três velas verdes consecutivas, com fechamentos cada vez mais altos e sombras pequenas",
+            "c": "Uma vela verde, uma vermelha, uma verde",
+            "d": "Três Dojis seguidos"
+        },
+        "correct": "b",
+        "explanation": "Indica uma reversão forte e constante. Os touros assumiram o controle e mantiveram a pressão compradora por três períodos seguidos."
+    },
+    {
+        "question": "O padrão 'Estrela da Noite' (Evening Star) é o oposto da Estrela da Manhã. Ele aparece:",
+        "options": {
+            "a": "No final de uma tendência de alta (Topo)",
+            "b": "No final de uma tendência de baixa (Fundo)",
+            "c": "No meio de uma consolidação",
+            "d": "Apenas em gráficos anuais"
+        },
+        "correct": "a",
+        "explanation": "Após uma subida forte, aparece uma vela pequena de indecisão, seguida por uma vela vermelha forte que fecha os ganhos anteriores. Sinal de venda."
+    },
+    {
+        "question": "Os 'Três Corvos Negros' (Three Black Crows) sinalizam:",
+        "options": {
+            "a": "O início de uma tendência de alta",
+            "b": "Uma forte pressão vendedora (início ou continuação de baixa)",
+            "c": "Falta de liquidez",
+            "d": "Compra imediata"
+        },
+        "correct": "b",
+        "explanation": "São três velas vermelhas longas consecutivas, fechando próximas às mínimas. Mostra que os vendedores estão liquidando posições agressivamente."
+    },
+    {
+        "question": "Qual a diferença entre uma 'Estrela da Manhã' e um 'Bebê Abandonado de Alta' (Abandoned Baby)?",
+        "options": {
+            "a": "O Bebê Abandonado tem Gaps (lacunas) antes e depois da vela do meio, deixando-a isolada",
+            "b": "A Estrela da Manhã tem gaps",
+            "c": "O Bebê Abandonado não funciona",
+            "d": "Nenhuma, são nomes diferentes para a mesma coisa"
+        },
+        "correct": "a",
+        "explanation": "O Bebê Abandonado é muito raro e forte. A vela do meio fica 'ilhada' por gaps, sem que suas sombras toquem as velas vizinhas."
+    },
+    {
+        "question": "No padrão 'Three Inside Up' (Três Dentro para Cima), as duas primeiras velas formam um:",
+        "options": {
+            "a": "Engolfo",
+            "b": "Harami de Alta",
+            "c": "Martelo",
+            "d": "Doji"
+        },
+        "correct": "b",
+        "explanation": "O 'Three Inside Up' é basicamente um Harami que foi confirmado. 1) Mãe Vermelha, 2) Bebê Verde (Harami), 3) Vela Verde que rompe a máxima da Mãe."
+    },
+    {
+        "question": "Se a vela do meio em uma Estrela da Manhã for um Doji, o padrão é chamado de:",
+        "options": {
+            "a": "Morning Doji Star",
+            "b": "Shooting Star",
+            "c": "Hammer",
+            "d": "Cross Star"
+        },
+        "correct": "a",
+        "explanation": "O 'Morning Doji Star' é considerado ainda mais forte que o padrão normal, pois o Doji representa indecisão total antes da virada."
+    },
+    {
+        "question": "O padrão 'Three Outside Down' (Três Fora para Baixo) é a confirmação de qual padrão de duas velas?",
+        "options": {
+            "a": "Harami",
+            "b": "Engolfo de Baixa",
+            "c": "Piercing Line",
+            "d": "Dark Cloud Cover"
+        },
+        "correct": "b",
+        "explanation": "As duas primeiras velas formam um Engolfo de Baixa. A terceira vela é vermelha e fecha abaixo do Engolfo, confirmando que a queda é real."
+    },
+    {
+        "question": "A psicologia por trás dos Três Soldados Brancos é:",
+        "options": {
+            "a": "Exaustão dos compradores",
+            "b": "Mudança gradual e consistente de sentimento para alta",
+            "c": "Pânico vendedor",
+            "d": "Indecisão"
+        },
+        "correct": "b",
+        "explanation": "Diferente de um pico repentino, os três soldados mostram uma entrada de capital consistente e sustentada."
+    },
+    {
+        "question": "Para uma Estrela da Noite (Evening Star) ser válida, a terceira vela (vermelha) deve penetrar:",
+        "options": {
+            "a": "Apenas 10% da primeira vela",
+            "b": "Pelo menos 50% do corpo da primeira vela (verde)",
+            "c": "Não precisa penetrar",
+            "d": "Deve ser um Doji"
+        },
+        "correct": "b",
+        "explanation": "A terceira vela precisa devolver boa parte dos ganhos da primeira vela para confirmar que os vendedores retomaram o controle."
+    },
+    {
+        "question": "O padrão 'Advance Block' é uma variação dos Três Soldados Brancos onde:",
+        "options": {
+            "a": "As velas ficam maiores a cada dia",
+            "b": "As velas diminuem de tamanho e deixam longas sombras superiores",
+            "c": "As velas são vermelhas",
+            "d": "O mercado cai"
+        },
+        "correct": "b",
+        "explanation": "Embora sejam três velas verdes, as sombras longas em cima indicam que a força está acabando (fraqueza), ao contrário dos Soldados fortes."
+    },
+    {
+        "question": "Em uma tendência de baixa, se aparecerem três velas pequenas seguidas de queda após uma vela longa vermelha, isso é um:",
+        "options": {
+            "a": "Falling Three Methods (Três Métodos de Queda)",
+            "b": "Three Black Crows",
+            "c": "Morning Star",
+            "d": "Reversão"
+        },
+        "correct": "a",
+        "explanation": "É um padrão de continuação. O mercado cai forte, 'descansa' com três velas pequenas (bandeira) e depois volta a cair."
+    },
+    {
+        "question": "Qual a cor da primeira vela em uma 'Estrela da Manhã'?",
+        "options": {
+            "a": "Verde (Alta)",
+            "b": "Vermelha (Baixa)",
+            "c": "Branca",
+            "d": "Azul"
+        },
+        "correct": "b",
+        "explanation": "O padrão começa numa tendência de baixa, então a primeira vela deve ser longa e vermelha, confirmando o medo antes da reversão."
+    },
+    {
+        "question": "Se aparecerem Três Corvos Negros muito esticados (grandes), qual o risco?",
+        "options": {
+            "a": "Nenhum, venda a casa e aposte",
+            "b": "O mercado pode estar 'sobrevendido' e corrigir (repique) antes de cair mais",
+            "c": "O mercado vai virar para alta",
+            "d": "Significa erro de dados"
+        },
+        "correct": "b",
+        "explanation": "Movimentos muito bruscos (exaustão) costumam ter correções rápidas (pullbacks) antes de continuar a tendência."
+    },
+    {
+        "question": "O 'Three Inside Down' é mais confiável que um Harami de Baixa isolado?",
+        "options": {
+            "a": "Sim, pois a terceira vela confirma a reversão",
+            "b": "Não, é a mesma coisa",
+            "c": "Menos confiável",
+            "d": "Depende da corretora"
+        },
+        "correct": "a",
+        "explanation": "Padrões de 3 velas geralmente têm taxa de acerto maior que os de 2 velas, pois a terceira vela age como a 'confirmação' que o trader prudente espera."
+    },
+    {
+        "question": "Qual padrão é conhecido por deixar uma 'ilha' de preços isolada no topo?",
+        "options": {
+            "a": "Bebê Abandonado de Baixa",
+            "b": "Morning Star",
+            "c": "Engolfo",
+            "d": "Soldados Brancos"
+        },
+        "correct": "a",
+        "explanation": "O gap de subida antes e o gap de descida depois isolam a vela do topo, criando uma 'ilha de reversão'. Sinal fortíssimo."
+    },
+    {
+        "question": "No padrão 'Rising Three Methods' (Três Métodos de Alta):",
+        "options": {
+            "a": "O mercado reverte para baixa",
+            "b": "Ocorre uma pausa na alta (3 velas pequenas caindo) dentro de uma vela mãe verde, seguido de rompimento",
+            "c": "São três corvos negros",
+            "d": "É um padrão de topo"
+        },
+        "correct": "b",
+        "explanation": "É um padrão clássico de continuação de alta. Sobe forte, corrige suavemente (realização de lucros) e explode para cima novamente."
+    },
+    {
+        "question": "A vela do meio na Estrela da Noite (Evening Star) expressa:",
+        "options": {
+            "a": "Força total",
+            "b": "Indecisão entre compradores e vendedores após uma alta",
+            "c": "Pânico",
+            "d": "Volume zero"
+        },
+        "correct": "b",
+        "explanation": "Após a euforia da primeira vela, a segunda vela pequena mostra que a força acabou ('o combustível acabou'). A terceira vela confirma a queda."
+    },
+    {
+        "question": "O padrão 'Identical Three Crows' (Três Corvos Idênticos) difere dos Corvos normais pois:",
+        "options": {
+            "a": "Cada vela abre exatamente no fechamento da anterior (sem sombras superiores)",
+            "b": "São verdes",
+            "c": "São Dojis",
+            "d": "Aparecem na alta"
+        },
+        "correct": "a",
+        "explanation": "É uma versão muito forte e específica onde não há tentativa de alta na abertura de cada dia. A venda é contínua desde o primeiro segundo."
+    },
+    {
+        "question": "Por que padrões de 3 velas são preferidos por traders conservadores?",
+        "options": {
+            "a": "Porque são mais bonitos",
+            "b": "Porque já incluem a confirmação do movimento, reduzindo sinais falsos",
+            "c": "Porque aparecem toda hora",
+            "d": "Porque não precisam de volume"
+        },
+        "correct": "b",
+        "explanation": "Enquanto o trader agressivo entra no Martelo (1 vela), o conservador espera a formação completa da Estrela da Manhã (3 velas) para ter certeza."
+    }
+]

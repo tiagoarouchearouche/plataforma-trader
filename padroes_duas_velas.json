@@ -1,0 +1,222 @@
+[
+    {
+        "question": "O padrão 'Engolfo de Alta' (Bullish Engulfing) ocorre quando:",
+        "options": {
+            "a": "Um candle vermelho pequeno é seguido por um candle verde grande que o cobre totalmente",
+            "b": "Um candle verde é seguido por um vermelho maior",
+            "c": "Dois candles iguais aparecem lado a lado",
+            "d": "O segundo candle abre com gap de baixa e continua caindo"
+        },
+        "correct": "a",
+        "explanation": "O Engolfo de Alta mostra força total. Os compradores engolem toda a negatividade do dia anterior, fechando acima da abertura passada."
+    },
+    {
+        "question": "No padrão 'Harami' (Mulher Grávida), o primeiro candle é chamado de 'Mãe' e deve ser:",
+        "options": {
+            "a": "Pequeno e sem sombras",
+            "b": "Grande (Longo)",
+            "c": "Um Doji",
+            "d": "Invisível"
+        },
+        "correct": "b",
+        "explanation": "O Harami consiste num candle grande (Mãe) que 'abriga' um candle pequeno (Bebê) dentro do seu corpo real."
+    },
+    {
+        "question": "Qual a diferença técnica entre o 'Piercing Line' e o 'Engolfo de Alta'?",
+        "options": {
+            "a": "Nenhuma, são iguais",
+            "b": "O Piercing Line fecha acima de 50% do candle anterior, mas não o cobre totalmente",
+            "c": "O Piercing Line ocorre na tendência de baixa e o Engolfo na de alta",
+            "d": "O Engolfo é mais fraco que o Piercing"
+        },
+        "correct": "b",
+        "explanation": "Enquanto o Engolfo cobre tudo, o Piercing Line (Linha de Perfuração) precisa apenas penetrar mais da metade do corpo do candle vermelho anterior."
+    },
+    {
+        "question": "O padrão 'Dark Cloud Cover' (Nuvem Negra) é um sinal de:",
+        "options": {
+            "a": "Continuação da alta",
+            "b": "Reversão baixista (Topo)",
+            "c": "Reversão altista (Fundo)",
+            "d": "Lateralidade"
+        },
+        "correct": "b",
+        "explanation": "Aparece após uma alta. O preço abre acima da máxima anterior (otimismo), mas fecha perfurando mais de 50% do candle verde anterior (pessimismo)."
+    },
+    {
+        "question": "O 'Tweezer Bottom' (Pinça de Fundo) é caracterizado por:",
+        "options": {
+            "a": "Dois candles com máximas iguais",
+            "b": "Dois candles com mínimas idênticas (ou muito próximas)",
+            "c": "Um candle verde e um Doji",
+            "d": "Três candles de baixa"
+        },
+        "correct": "b",
+        "explanation": "Indica um suporte muito forte. O preço bateu no mesmo valor duas vezes e não conseguiu descer mais, como as pontas de uma pinça."
+    },
+    {
+        "question": "Um 'Engolfo de Baixa' no topo de uma tendência de alta sugere:",
+        "options": {
+            "a": "Que os compradores estão descansando",
+            "b": "Que os vendedores assumiram o controle violentamente",
+            "c": "Que a tendência vai continuar",
+            "d": "Compra imediata"
+        },
+        "correct": "b",
+        "explanation": "O candle vendedor é tão forte que 'engole' todo o progresso feito pelos compradores no período anterior. Sinal forte de venda."
+    },
+    {
+        "question": "Por que o Harami é considerado um padrão de 'perda de força' e não necessariamente de reversão imediata?",
+        "options": {
+            "a": "Porque o segundo candle é pequeno, indicando indecisão ou pausa",
+            "b": "Porque é um padrão raro",
+            "c": "Porque sempre falha",
+            "d": "Porque acontece em tendências laterais"
+        },
+        "correct": "a",
+        "explanation": "O Harami mostra que a tendência vigente 'freou' (o candle pequeno dentro do grande). Muitas vezes precede uma reversão, mas exige confirmação."
+    },
+    {
+        "question": "Para validar um 'Dark Cloud Cover', o segundo candle (vermelho) deve fechar:",
+        "options": {
+            "a": "Abaixo da mínima do candle anterior",
+            "b": "Abaixo de 50% do corpo do candle verde anterior",
+            "c": "Acima da máxima",
+            "d": "Em qualquer lugar"
+        },
+        "correct": "b",
+        "explanation": "Se não fechar abaixo do ponto médio (50%) do candle anterior, não é Nuvem Negra, é apenas uma correção fraca (Incomplete Cloud)."
+    },
+    {
+        "question": "Qual destes padrões é o oposto exato do 'Piercing Line'?",
+        "options": {
+            "a": "Harami de Alta",
+            "b": "Dark Cloud Cover",
+            "c": "Martelo",
+            "d": "Engolfo de Alta"
+        },
+        "correct": "b",
+        "explanation": "O Piercing Line reverte baixa para alta (fundo). O Dark Cloud Cover reverte alta para baixa (topo). A mecânica dos 50% é a mesma."
+    },
+    {
+        "question": "No padrão 'Tweezer Top' (Pinça de Topo), o que as sombras superiores iguais indicam?",
+        "options": {
+            "a": "Resistência forte: o preço tentou subir duas vezes e falhou no mesmo nível",
+            "b": "Suporte forte",
+            "c": "Volume baixo",
+            "d": "Compra certa"
+        },
+        "correct": "a",
+        "explanation": "Mostra que existe uma barreira de venda naquele preço exato. Duas tentativas falhas de romper o topo."
+    },
+    {
+        "question": "Um Harami de Alta (Bullish Harami) acontece quando:",
+        "options": {
+            "a": "Um candle verde grande engole um vermelho",
+            "b": "Um candle vermelho grande é seguido por um pequeno verde dentro dele",
+            "c": "Dois candles vermelhos aparecem",
+            "d": "O mercado está em máxima histórica"
+        },
+        "correct": "b",
+        "explanation": "A 'Mãe' é vermelha (tendência de baixa) e o 'Bebê' é verde (pequena força contrária nascendo). Indica que a queda perdeu momentum."
+    },
+    {
+        "question": "O 'Kicker Pattern' (Chute) é um dos padrões mais fortes e raros. Ele envolve:",
+        "options": {
+            "a": "Um Gap (salto de preço) abrupto entre dois candles de cores opostas",
+            "b": "Sombras muito longas",
+            "c": "Três Dojis seguidos",
+            "d": "O preço não se mover"
+        },
+        "correct": "a",
+        "explanation": "O Kicker ocorre quando o preço abre com um Gap enorme na direção oposta ao candle anterior e segue direto, sem preencher o Gap."
+    },
+    {
+        "question": "Qual a psicologia por trás do Engolfo de Alta?",
+        "options": {
+            "a": "Medo extremo",
+            "b": "Euforia vendedora",
+            "c": "Mudança drástica de sentimento: ursos estavam no controle na abertura, mas touros dominaram totalmente o fechamento",
+            "d": "Indiferença"
+        },
+        "correct": "c",
+        "explanation": "É uma virada de mesa completa. Quem estava vendendo no dia anterior agora está 'preso' em perdas, enquanto compradores assumiram o comando."
+    },
+    {
+        "question": "O padrão 'On Neck' (No Pescoço) ocorre na tendência de baixa quando:",
+        "options": {
+            "a": "O segundo candle fecha exatamente na mínima do primeiro",
+            "b": "Ocorre um Engolfo",
+            "c": "O preço sobe muito",
+            "d": "Aparece um Martelo"
+        },
+        "correct": "a",
+        "explanation": "É um padrão de CONTINUAÇÃO de baixa (raro). O candle pequeno de alta mal consegue subir e fecha no nível da mínima anterior."
+    },
+    {
+        "question": "Se um Engolfo de Alta acontecer sem volume financeiro, ele é:",
+        "options": {
+            "a": "Mais confiável",
+            "b": "Menos confiável (suspeito)",
+            "c": "Igualmente forte",
+            "d": "Um padrão de 3 velas"
+        },
+        "correct": "b",
+        "explanation": "Volume confirma a força. Um candle grande sem volume pode ser apenas manipulação ou falta de liquidez, aumentando o risco de falha."
+    },
+    {
+        "question": "No Harami Cross (Harami Cruz), o segundo candle é um:",
+        "options": {
+            "a": "Marubozu",
+            "b": "Doji",
+            "c": "Martelo",
+            "d": "Engolfo"
+        },
+        "correct": "b",
+        "explanation": "É um Harami onde o 'Bebê' é um Doji. Isso aumenta a potência do sinal, pois mostra indecisão total após um movimento forte."
+    },
+    {
+        "question": "O que invalida um padrão de Engolfo de Alta?",
+        "options": {
+            "a": "Se o próximo candle romper a mínima do padrão",
+            "b": "Se o próximo candle for verde",
+            "c": "Se o volume for alto",
+            "d": "Se acontecer no fundo"
+        },
+        "correct": "a",
+        "explanation": "Se o preço cair abaixo de onde o padrão começou (a mínima do Engolfo), a lógica de compra foi destruída (Stop Loss acionado)."
+    },
+    {
+        "question": "Em um Tweezer Top, as cores dos candles:",
+        "options": {
+            "a": "Devem ser idênticas",
+            "b": "Geralmente são opostas (primeiro verde, segundo vermelho)",
+            "c": "Não importam nem um pouco",
+            "d": "Devem ser azuis"
+        },
+        "correct": "b",
+        "explanation": "Idealmente, o primeiro candle confirma a tendência de alta (verde) e o segundo mostra a rejeição (vermelho) no mesmo nível."
+    },
+    {
+        "question": "O 'Piercing Line' (Linha de Perfuração) é considerado um padrão de:",
+        "options": {
+            "a": "Reversão Altista (Bullish Reversal)",
+            "b": "Reversão Baixista (Bearish Reversal)",
+            "c": "Continuação",
+            "d": "Lateralização"
+        },
+        "correct": "a",
+        "explanation": "Como o nome diz, ele 'perfura' a nuvem de pessimismo anterior. Ocorre em fundos e sinaliza o início de uma alta."
+    },
+    {
+        "question": "Qual desses padrões de duas velas indica CONTINUAÇÃO da tendência e não reversão?",
+        "options": {
+            "a": "Harami",
+            "b": "Engolfo",
+            "c": "Separating Lines (Linhas de Separação)",
+            "d": "Piercing Line"
+        },
+        "correct": "c",
+        "explanation": "No 'Bullish Separating Lines', o mercado abre no mesmo preço do dia anterior mas sobe forte, continuando a tendência prévia."
+    }
+]

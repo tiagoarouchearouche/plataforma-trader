@@ -1,0 +1,155 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="container py-4">
+    <div class="d-flex justify-content-between align-items-center mb-3">
+        <div>
+            <span class="badge bg-warning text-dark">PRO</span>
+            <h2 class="d-inline ms-2">{{ scenario.title }}</h2>
+        </div>
+        <div class="text-end">
+            <span class="fs-5 fw-bold text-warning">Prêmio: {{ scenario.reward_xp }} XP</span>
+        </div>
+    </div>
+
+    <p class="lead">{{ scenario.description }}</p>
+
+    <div class="card shadow-sm border-0 mb-4">
+        <div class="card-body p-0 bg-white">
+            <div id="chart-container" style="height: 400px; width: 100%;"></div>
+
+            <div style="height: 2px; background-color: #e1e1e1;"></div>
+
+            <div id="rsi-container" style="height: 150px; width: 100%;"></div>
+        </div>
+    </div>
+
+    <div class="row justify-content-center" id="action-buttons">
+        <div class="col-md-3">
+            <button onclick="makeDecision('SELL')" class="btn btn-danger w-100 py-3 fw-bold fs-5 shadow-sm">
+                <i class="bi bi-graph-down-arrow"></i> VENDER
+            </button>
+        </div>
+        <div class="col-md-3">
+            <button onclick="makeDecision('WAIT')" class="btn btn-secondary w-100 py-3 fw-bold fs-5 shadow-sm">
+                <i class="bi bi-hourglass-split"></i> AGUARDAR
+            </button>
+        </div>
+        <div class="col-md-3">
+            <button onclick="makeDecision('BUY')" class="btn btn-success w-100 py-3 fw-bold fs-5 shadow-sm">
+                <i class="bi bi-graph-up-arrow"></i> COMPRAR
+            </button>
+        </div>
+    </div>
+
+    <div id="result-area" class="alert mt-4 d-none text-center" role="alert">
+        <h3 class="alert-heading fw-bold" id="result-title"></h3>
+        <p class="fs-5" id="result-explanation"></p>
+        <a href="{% url 'simulator:index' %}" class="btn btn-dark mt-2">Próximo Desafio</a>
+    </div>
+</div>
+
+<script src="https://unpkg.com/lightweight-charts@4.1.1/dist/lightweight-charts.standalone.production.js"></script>
+
+<script>
+    // --- 1. PREPARAÇÃO DOS DADOS ---
+    let rawData = {{ chart_data_json|safe }};
+    try { if (typeof rawData === 'string') rawData = JSON.parse(rawData); } catch (e) {}
+
+    // Separa os dados para cada linha
+    const candleData = rawData.map(d => ({ time: d.time, open: d.open, high: d.high, low: d.low, close: d.close }));
+    const ema9Data   = rawData.map(d => ({ time: d.time, value: d.ema9 }));
+    const ema21Data  = rawData.map(d => ({ time: d.time, value: d.ema21 }));
+    const sma100Data = rawData.map(d => ({ time: d.time, value: d.sma100 }));
+    const rsiData    = rawData.map(d => ({ time: d.time, value: d.rsi }));
+
+    // --- 2. GRÁFICO PRINCIPAL (Preço + Médias) ---
+    const chart = LightweightCharts.createChart(document.getElementById('chart-container'), {
+        layout: { background: { type: 'solid', color: '#ffffff' }, textColor: '#000' },
+        grid: { vertLines: { color: '#f0f0f0' }, horzLines: { color: '#f0f0f0' } },
+        timeScale: { timeVisible: true, secondsVisible: false, borderColor: '#ccc' },
+    });
+
+    // Candles
+    const candleSeries = chart.addCandlestickSeries({
+        upColor: '#26a69a', downColor: '#ef5350', borderVisible: false, wickUpColor: '#26a69a', wickDownColor: '#ef5350',
+    });
+    candleSeries.setData(candleData);
+
+    // Média 9 (Azul)
+    const ema9Series = chart.addLineSeries({ color: '#2962FF', lineWidth: 2, title: 'EMA 9' });
+    ema9Series.setData(ema9Data);
+
+    // Média 21 (Amarela)
+    const ema21Series = chart.addLineSeries({ color: '#FFD600', lineWidth: 2, title: 'EMA 21' });
+    ema21Series.setData(ema21Data);
+
+    // Média 100 (Cinza/Preta)
+    const sma100Series = chart.addLineSeries({ color: '#555555', lineWidth: 3, lineStyle: 2, title: 'SMA 100' });
+    sma100Series.setData(sma100Data);
+
+    // --- 3. GRÁFICO RSI (Separado) ---
+    const rsiChart = LightweightCharts.createChart(document.getElementById('rsi-container'), {
+        layout: { background: { type: 'solid', color: '#ffffff' }, textColor: '#000' },
+        grid: { vertLines: { color: '#f0f0f0' }, horzLines: { color: '#f0f0f0' } },
+        timeScale: { visible: false }, // Esconde a data do RSI (já tem em cima)
+        leftPriceScale: { visible: false },
+    });
+
+    // Linha RSI (Roxa)
+    const rsiSeries = rsiChart.addLineSeries({ color: '#9C27B0', lineWidth: 2, title: 'RSI 14' });
+    rsiSeries.setData(rsiData);
+
+    // Linhas de Referência (70 e 30)
+    // Criamos "linhas retas" artificiais para referência visual
+    const level70 = rawData.map(d => ({ time: d.time, value: 70 }));
+    const level30 = rawData.map(d => ({ time: d.time, value: 30 }));
+
+    const line70 = rsiChart.addLineSeries({ color: '#ef5350', lineWidth: 1, lineStyle: 2, title: '70' }); // Vermelha
+    const line30 = rsiChart.addLineSeries({ color: '#26a69a', lineWidth: 1, lineStyle: 2, title: '30' }); // Verde
+    line70.setData(level70);
+    line30.setData(level30);
+
+    // --- 4. SINCRONIZAR ZOOM (Mágica) ---
+    // Quando um mexe, o outro mexe junto
+    chart.timeScale().subscribeVisibleTimeRangeChange((range) => {
+        rsiChart.timeScale().setVisibleRange(range);
+    });
+
+    // Ajuste de layout
+    chart.timeScale().fitContent();
+
+    // --- 5. LÓGICA DO JOGO ---
+    function makeDecision(action) {
+        document.getElementById('action-buttons').classList.add('d-none');
+        fetch("{% url 'simulator:check_trade' %}", {
+            method: "POST",
+            headers: { "Content-Type": "application/json", "X-CSRFToken": "{{ csrf_token }}" },
+            body: JSON.stringify({ scenario_id: {{ scenario.id }}, action: action })
+        })
+        .then(response => response.json())
+        .then(data => {
+            const resultArea = document.getElementById('result-area');
+            const resultTitle = document.getElementById('result-title');
+            const resultExp = document.getElementById('result-explanation');
+            resultArea.classList.remove('d-none');
+
+            if (data.correct) {
+                resultArea.classList.add('alert-success');
+                resultTitle.innerText = `WIN! +${data.xp_gained} XP 🚀`;
+                resultExp.innerText = data.explanation;
+            } else {
+                resultArea.classList.add('alert-danger');
+                resultTitle.innerText = "LOSS 📉";
+                resultExp.innerText = "Análise incorreta. " + data.explanation;
+            }
+        });
+    }
+
+    // Resize
+    window.addEventListener('resize', () => {
+        chart.resize(document.getElementById('chart-container').clientWidth, 400);
+        rsiChart.resize(document.getElementById('rsi-container').clientWidth, 150);
+    });
+</script>
+{% endblock %}

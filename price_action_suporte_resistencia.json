@@ -1,0 +1,222 @@
+[
+    {
+        "question": "O que define melhor um 'Suporte' no gráfico?",
+        "options": {
+            "a": "Uma linha mágica onde o preço sempre para",
+            "b": "Uma zona de preço abaixo do valor atual onde a força compradora tende a superar a vendedora",
+            "c": "Um teto que impede o preço de subir",
+            "d": "O preço de abertura do dia"
+        },
+        "correct": "b",
+        "explanation": "Suporte é uma região de 'memória' onde os compradores consideram o preço barato e entram defendendo a posição, fazendo o preço subir."
+    },
+    {
+        "question": "O que é o princípio da 'Bipolaridade' (ou Inversão de Papéis)?",
+        "options": {
+            "a": "O mercado muda de humor rapidamente",
+            "b": "Quando um Suporte é rompido, ele tende a virar Resistência (e vice-versa)",
+            "c": "Quando o preço sobe e desce",
+            "d": "Não existe isso em análise técnica"
+        },
+        "correct": "b",
+        "explanation": "É a regra de ouro: O chão do vizinho de cima é o teto do vizinho de baixo. Se o suporte rompe, vira resistência na volta do preço."
+    },
+    {
+        "question": "Quanto mais vezes um suporte ou resistência é testado (tocado), ele:",
+        "options": {
+            "a": "Fica mais fraco, pois as ordens estão sendo consumidas",
+            "b": "Fica invencível",
+            "c": "Torna-se irrelevante",
+            "d": "Vira uma LTA"
+        },
+        "correct": "a",
+        "explanation": "Diferente do que muitos pensam, muitos toques enfraquecem a zona. Imagine um martelo batendo num muro: uma hora ele quebra."
+    },
+    {
+        "question": "Números redondos (ex: R$ 100,00, Bitcoin 50k) costumam atuar como:",
+        "options": {
+            "a": "Suportes e Resistências Psicológicos",
+            "b": "Zonas sem liquidez",
+            "c": "Pontos de venda apenas",
+            "d": "Erros da corretora"
+        },
+        "correct": "a",
+        "explanation": "Humanos adoram zeros. Grandes ordens são posicionadas em números redondos, criando barreiras naturais de preço."
+    },
+    {
+        "question": "Uma 'Resistência' é:",
+        "options": {
+            "a": "Uma zona acima do preço atual onde a oferta (venda) supera a procura (compra)",
+            "b": "Um suporte que não funcionou",
+            "c": "O fundo do gráfico",
+            "d": "Uma linha de tendência de alta"
+        },
+        "correct": "a",
+        "explanation": "É o 'teto'. Chegando lá, os vendedores acham caro e vendem, e os compradores param de comprar, derrubando o preço."
+    },
+    {
+        "question": "A melhor forma de desenhar Suporte e Resistência é:",
+        "options": {
+            "a": "Como uma linha fina e exata",
+            "b": "Como uma 'Região' ou 'Zona' de preço",
+            "c": "Usando apenas as sombras",
+            "d": "Aleatoriamente"
+        },
+        "correct": "b",
+        "explanation": "O preço não é cirúrgico. Ele é uma zona de briga. Tratar S&R como faixas de preço evita violinas e stops desnecessários."
+    },
+    {
+        "question": "Se o preço está caindo e para de cair para começar a subir, formou-se um:",
+        "options": {
+            "a": "Topo",
+            "b": "Fundo (Suporte)",
+            "c": "Rompimento",
+            "d": "Gap"
+        },
+        "correct": "b",
+        "explanation": "Fundo é a região onde o preço encontrou suporte e reverteu a queda momentânea."
+    },
+    {
+        "question": "Qual timeframe (tempo gráfico) tem suportes e resistências mais fortes?",
+        "options": {
+            "a": "1 Minuto",
+            "b": "5 Minutos",
+            "c": "Diário / Semanal",
+            "d": "Todos são iguais"
+        },
+        "correct": "c",
+        "explanation": "Quanto maior o tempo gráfico, mais memória e volume financeiro existem naquele nível. Um suporte mensal é um muro de concreto; um de 1 min é de papel."
+    },
+    {
+        "question": "O que acontece com os comprados quando um Suporte é rompido?",
+        "options": {
+            "a": "Eles ganham dinheiro",
+            "b": "Eles entram em prejuízo e viram potenciais vendedores (para estopar)",
+            "c": "Eles compram mais",
+            "d": "Nada"
+        },
+        "correct": "b",
+        "explanation": "O 'Pânico' dos comprados é o que acelera o rompimento. Eles precisam vender para sair da posição perdedora."
+    },
+    {
+        "question": "Um topo anterior rompido costuma servir de:",
+        "options": {
+            "a": "Resistência futura",
+            "b": "Suporte futuro (Polaridade)",
+            "c": "Nada",
+            "d": "Alvo de fibonacci"
+        },
+        "correct": "b",
+        "explanation": "Conceito clássico de tendência de alta. O teto rompido vira o chão para o próximo impulso."
+    },
+    {
+        "question": "Identificar S&R olhando para a esquerda do gráfico chama-se:",
+        "options": {
+            "a": "Previsão do futuro",
+            "b": "Memória de Mercado",
+            "c": "Backtesting",
+            "d": "Day Trade"
+        },
+        "correct": "b",
+        "explanation": "O mercado tem memória. Onde houve briga no passado, provavelmente haverá briga no futuro."
+    },
+    {
+        "question": "Em uma consolidação (Lateralidade), o preço fica preso entre:",
+        "options": {
+            "a": "Duas médias móveis",
+            "b": "Um Suporte e uma Resistência bem definidos",
+            "c": "Uma LTA e uma LTB",
+            "d": "Nenhum lugar"
+        },
+        "correct": "b",
+        "explanation": "O mercado fica 'pingando' entre o teto e o chão até decidir para onde romper."
+    },
+    {
+        "question": "Para operar um Suporte, o ideal é esperar:",
+        "options": {
+            "a": "O toque exato na linha",
+            "b": "Um padrão de candle de reversão (gatilho) na região",
+            "c": "O rompimento",
+            "d": "O fechamento do mercado"
+        },
+        "correct": "b",
+        "explanation": "Comprar só porque tocou é arriscado (pode passar direto). Esperar um Martelo ou Engolfo na região confirma a defesa."
+    },
+    {
+        "question": "O que é uma 'Zona de Confluência'?",
+        "options": {
+            "a": "Onde dois rios se encontram",
+            "b": "Onde um Suporte horizontal cruza com uma LTA ou Média Móvel",
+            "c": "Uma zona sem preço",
+            "d": "Um erro gráfico"
+        },
+        "correct": "b",
+        "explanation": "São os melhores pontos de entrada. Vários fatores técnicos apontando para a mesma região aumentam a probabilidade de acerto."
+    },
+    {
+        "question": "Se o preço toca a resistência e deixa um longo pavio superior, isso indica:",
+        "options": {
+            "a": "Rompimento iminente",
+            "b": "Rejeição de preço (Vendedores defenderam a área)",
+            "c": "Força compradora",
+            "d": "Nada"
+        },
+        "correct": "b",
+        "explanation": "Mostra que os compradores tentaram romper, mas levaram uma 'pancada' e o preço voltou."
+    },
+    {
+        "question": "Qual a relação entre Volume e Rompimento de Suporte?",
+        "options": {
+            "a": "Nenhuma",
+            "b": "Rompimentos verdadeiros geralmente têm aumento de volume",
+            "c": "Rompimentos precisam de volume baixo",
+            "d": "Volume só importa em ações"
+        },
+        "correct": "b",
+        "explanation": "Para quebrar um muro (Suporte), é preciso muita energia (Volume). Se rompeu sem volume, suspeite de armadilha."
+    },
+    {
+        "question": "O 'Last Kiss' (Último Beijo) é um termo poético para:",
+        "options": {
+            "a": "O Pullback de retorno à zona rompida antes de ir embora",
+            "b": "O fechamento do pregão",
+            "c": "A perda total da conta",
+            "d": "Um candle doji"
+        },
+        "correct": "a",
+        "explanation": "O preço rompe, volta para dar um 'beijo' de despedida no nível (testar como suporte/resistência) e depois segue a tendência."
+    },
+    {
+        "question": "Em tendência de baixa, os suportes tendem a ser:",
+        "options": {
+            "a": "Respeitados",
+            "b": "Rompidos",
+            "c": "Ignorados",
+            "d": "Invisíveis"
+        },
+        "correct": "b",
+        "explanation": "A tendência é de queda, logo, o objetivo do preço é fazer fundos mais baixos, ou seja, romper suportes."
+    },
+    {
+        "question": "Mudar de Timeframe ajuda a traçar S&R?",
+        "options": {
+            "a": "Não, atrapalha",
+            "b": "Sim, começar do maior para o menor (Top-Down) refina a análise",
+            "c": "Só deve usar 5 minutos",
+            "d": "Sim, mas só do menor para o maior"
+        },
+        "correct": "b",
+        "explanation": "Marcar as linhas fortes no Diário/H4 e refinar a entrada no M15/M5 é a técnica profissional."
+    },
+    {
+        "question": "Um 'Fundo Duplo' é um padrão que ocorre em:",
+        "options": {
+            "a": "Uma zona de Resistência",
+            "b": "Uma zona de Suporte",
+            "c": "No meio do nada",
+            "d": "Em topos históricos"
+        },
+        "correct": "b",
+        "explanation": "O preço bateu duas vezes no suporte e não caiu. Forma um 'W', sinal clássico de reversão altista."
+    }
+]

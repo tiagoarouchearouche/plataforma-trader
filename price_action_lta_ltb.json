@@ -1,0 +1,222 @@
+[
+    {
+        "question": "O que significa LTA?",
+        "options": {
+            "a": "Linha de Topos Altos",
+            "b": "Linha de Tendência de Alta",
+            "c": "Limite Técnico de Abertura",
+            "d": "Long Term Analysis"
+        },
+        "correct": "b",
+        "explanation": "LTA (Linha de Tendência de Alta) conecta os fundos ascendentes de um movimento de alta."
+    },
+    {
+        "question": "Para traçar uma LTB (Linha de Tendência de Baixa) válida, precisamos conectar:",
+        "options": {
+            "a": "Dois fundos ascendentes",
+            "b": "Pelo menos dois topos descendentes",
+            "c": "A abertura e o fechamento",
+            "d": "Qualquer ponto aleatório"
+        },
+        "correct": "b",
+        "explanation": "Na baixa, o preço bate na linha e cai. A linha fica *por cima* do preço, ligando os topos cada vez mais baixos."
+    },
+    {
+        "question": "Uma Linha de Tendência funciona como:",
+        "options": {
+            "a": "Um Suporte ou Resistência Dinâmico (Inclinado)",
+            "b": "Um indicador de volume",
+            "c": "Uma média móvel",
+            "d": "Apenas decoração"
+        },
+        "correct": "a",
+        "explanation": "Diferente do suporte horizontal, a LTA é um suporte que sobe junto com o preço (dinâmico)."
+    },
+    {
+        "question": "O rompimento de uma LTA geralmente sinaliza:",
+        "options": {
+            "a": "Aceleração da alta",
+            "b": "Fraqueza da tendência de alta e possível reversão",
+            "c": "Que o mercado vai fechar",
+            "d": "Compra forte"
+        },
+        "correct": "b",
+        "explanation": "Se o preço não consegue mais se segurar na linha que guiava a alta, a estrutura foi quebrada."
+    },
+    {
+        "question": "Quanto mais inclinada (vertical) for uma LTA:",
+        "options": {
+            "a": "Mais sustentável ela é no longo prazo",
+            "b": "Mais insustentável ela é, tendendo a romper rápido (Exaustão)",
+            "c": "Menos importante ela é",
+            "d": "Indica mercado lateral"
+        },
+        "correct": "b",
+        "explanation": "O mercado não sobe em linha reta (90 graus) para sempre. Inclinação extrema (Parabólica) geralmente precede um crash."
+    },
+    {
+        "question": "Para confirmar uma LTA, é necessário:",
+        "options": {
+            "a": "Apenas 1 ponto",
+            "b": "2 pontos (para desenhar) e o 3º toque (para confirmar)",
+            "c": "10 pontos",
+            "d": "Nenhum ponto"
+        },
+        "correct": "b",
+        "explanation": "Dois pontos definem uma reta. O terceiro toque prova que o mercado está respeitando aquela reta."
+    },
+    {
+        "question": "O que é 'Ajustar a LTA'?",
+        "options": {
+            "a": "Apagar a linha",
+            "b": "Redesenhar a linha para se adequar a novos fundos (curvatura da tendência)",
+            "c": "Mudar a cor da linha",
+            "d": "Travar a plataforma"
+        },
+        "correct": "b",
+        "explanation": "As tendências aceleram ou desaceleram. Às vezes precisamos traçar uma LTA secundária mais íngreme dentro da principal."
+    },
+    {
+        "question": "Em uma LTB, a melhor oportunidade de venda é:",
+        "options": {
+            "a": "Quando o preço está longe da linha",
+            "b": "Quando o preço toca na linha (ou chega perto) e deixa gatilho de rejeição",
+            "c": "Quando o preço rompe a linha para cima",
+            "d": "No fundo do gráfico"
+        },
+        "correct": "b",
+        "explanation": "Vender no toque da LTB é vender caro dentro da tendência de baixa, com stop curto acima da linha."
+    },
+    {
+        "question": "Se o preço rompe uma LTB e faz Pullback nela (por cima), a LTB agora atua como:",
+        "options": {
+            "a": "Resistência",
+            "b": "Suporte (Inversão de polaridade)",
+            "c": "Nada",
+            "d": "Alvo"
+        },
+        "correct": "b",
+        "explanation": "Mesma regra dos suportes horizontais. A linha que empurrava o preço para baixo agora serve de trampolim para ir para cima."
+    },
+    {
+        "question": "O 'Ângulo ideal' de uma tendência saudável e duradoura é próximo de:",
+        "options": {
+            "a": "10 graus",
+            "b": "45 graus",
+            "c": "80 graus",
+            "d": "90 graus"
+        },
+        "correct": "b",
+        "explanation": "A teoria de Gann e analistas clássicos citam 45 graus como o equilíbrio perfeito entre preço e tempo."
+    },
+    {
+        "question": "Linhas de tendência internas (que cortam pavios) são válidas?",
+        "options": {
+            "a": "Não, nunca pode cortar nada",
+            "b": "Sim, às vezes se ajustam melhor à massa de dados (preços de fechamento) do que aos pavios extremos",
+            "c": "É proibido",
+            "d": "Só em candles vermelhos"
+        },
+        "correct": "b",
+        "explanation": "Não existe regra rígida. O importante é a linha tocar o maior número de zonas de briga possível."
+    },
+    {
+        "question": "A LTA deve ser traçada unindo:",
+        "options": {
+            "a": "Topos",
+            "b": "Fundos (Mínimas)",
+            "c": "Aberturas",
+            "d": "Fechamentos apenas"
+        },
+        "correct": "b",
+        "explanation": "Na alta, o suporte está embaixo. Então ligamos os fundos."
+    },
+    {
+        "question": "A LTB deve ser traçada unindo:",
+        "options": {
+            "a": "Topos (Máximas)",
+            "b": "Fundos",
+            "c": "Aberturas",
+            "d": "O meio do candle"
+        },
+        "correct": "a",
+        "explanation": "Na baixa, a resistência está em cima. Ligamos os topos descendentes."
+    },
+    {
+        "question": "O 'Fan Principle' (Princípio do Leque) envolve:",
+        "options": {
+            "a": "Traçar 3 LTAs com inclinações diferentes. Ao romper a terceira, a reversão é confirmada",
+            "b": "Usar um ventilador",
+            "c": "Traçar linhas horizontais",
+            "d": "Nada disso"
+        },
+        "correct": "a",
+        "explanation": "Conceito avançado. Quando a tendência desacelera e rompe três linhas de suporte sucessivas, a reversão é iminente."
+    },
+    {
+        "question": "Rompimento de LTA com 'Gap de Fuga' indica:",
+        "options": {
+            "a": "Falso rompimento",
+            "b": "Muita força na reversão (Venda forte)",
+            "c": "Que o mercado vai voltar a subir",
+            "d": "Erro de dados"
+        },
+        "correct": "b",
+        "explanation": "Gaps que pulam a linha de tendência mostram urgência e agressividade na mudança de direção."
+    },
+    {
+        "question": "Operar contra a LTA (Vender na tendência de alta) é:",
+        "options": {
+            "a": "Recomendado para iniciantes",
+            "b": "Arriscado (Operar contra tendência)",
+            "c": "Impossível",
+            "d": "A melhor estratégia"
+        },
+        "correct": "b",
+        "explanation": "A LTA é um muro de proteção. Vender contra ela é tentar parar um trem com a mão."
+    },
+    {
+        "question": "Se o preço não consegue mais tocar na LTA (fica longe dela subindo), isso pode ser:",
+        "options": {
+            "a": "Aceleração da tendência (Clímax)",
+            "b": "Fim da tendência",
+            "c": "Lateralidade",
+            "d": "Bear Market"
+        },
+        "correct": "a",
+        "explanation": "O mercado entrou em euforia e descolou da média/linha. Cuidado, o elástico esticado volta forte."
+    },
+    {
+        "question": "Se o preço não consegue mais tocar na LTA (fica longe dela caindo/lateralizando), isso pode ser:",
+        "options": {
+            "a": "Perda de momentum (Fraqueza)",
+            "b": "Aceleração",
+            "c": "Alta infinita",
+            "d": "Normal"
+        },
+        "correct": "a",
+        "explanation": "Se os compradores não têm força nem para levar o preço até a linha de topo novamente, a tendência está morrendo."
+    },
+    {
+        "question": "Uma LTA no gráfico Mensal tem peso:",
+        "options": {
+            "a": "Menor que no gráfico de 1 minuto",
+            "b": "Muitas vezes maior que no gráfico intraday",
+            "c": "Igual",
+            "d": "Nenhum"
+        },
+        "correct": "b",
+        "explanation": "Uma LTA de 10 anos sendo rompida pode sinalizar uma crise econômica, não apenas um trade."
+    },
+    {
+        "question": "O que é um canal?",
+        "options": {
+            "a": "Uma LTA e uma linha paralela a ela nos topos",
+            "b": "Apenas uma linha",
+            "c": "Um suporte horizontal",
+            "d": "Uma média móvel"
+        },
+        "correct": "a",
+        "explanation": "O canal é a evolução da LTA/LTB. Ele define o piso e o teto da tendência."
+    }
+]

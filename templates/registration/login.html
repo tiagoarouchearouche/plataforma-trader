@@ -1,0 +1,75 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<style>
+    /* CSS Específico para a página de Login para forçar beleza nos inputs do Django */
+    .login-input input {
+        width: 100%;
+        padding: 12px 15px;
+        border: 1px solid #ced4da;
+        border-radius: 8px;
+        transition: all 0.3s ease;
+        background-color: #f8f9fa;
+    }
+    .login-input input:focus {
+        border-color: #0d6efd;
+        box-shadow: 0 0 0 0.2rem rgba(13, 110, 253, 0.15);
+        background-color: #fff;
+        outline: none;
+    }
+    .login-container {
+        min-height: 80vh; /* Centraliza verticalmente na tela */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+</style>
+
+<div class="login-container">
+    <div class="col-md-4 col-sm-10">
+        <div class="card shadow-lg border-0 rounded-4">
+            <div class="card-body p-5">
+                
+                <div class="text-center mb-4">
+                    <div class="bg-primary text-white rounded-circle d-inline-flex align-items-center justify-content-center mb-3 shadow" style="width: 60px; height: 60px;">
+                        <i class="bi bi-person-fill fs-2"></i>
+                    </div>
+                    <h3 class="fw-bold text-dark">Bem-vindo(a)</h3>
+                    <p class="text-muted">Acesse sua conta no TraderEdu</p>
+                </div>
+
+                <form method="post">
+                    {% csrf_token %}
+                    
+                    {% if form.non_field_errors %}
+                        <div class="alert alert-danger text-center py-2 mb-3">
+                            <small>{{ form.non_field_errors.0 }}</small>
+                        </div>
+                    {% endif %}
+
+                    <div class="mb-3 login-input">
+                        <label class="form-label fw-bold text-secondary small">USUÁRIO</label>
+                        {{ form.username }}
+                    </div>
+
+                    <div class="mb-4 login-input">
+                        <label class="form-label fw-bold text-secondary small">SENHA</label>
+                        {{ form.password }}
+                    </div>
+
+                    <div class="d-grid gap-2">
+                        <button type="submit" class="btn btn-primary btn-lg fw-bold shadow-sm">
+                            <i class="bi bi-box-arrow-in-right me-2"></i> Entrar
+                        </button>
+                    </div>
+                </form>
+
+            </div>
+            
+            <div class="card-footer bg-light border-0 py-3 text-center rounded-bottom-4">
+                <small class="text-muted">Não tem uma conta? <a href="#" class="text-decoration-none fw-bold">Cadastre-se</a></small>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

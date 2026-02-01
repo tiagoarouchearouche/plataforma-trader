@@ -1,0 +1,118 @@
+[
+    {
+        "question": "Analise a imagem. O padrão mostrado é um exemplo clássico de continuação de tendência de alta chamado:",
+        "image": "od_rally_base_rally.png",
+        "options": {
+            "a": "Drop-Base-Drop",
+            "b": "Rally-Base-Rally (RBR)",
+            "c": "Topo Duplo",
+            "d": "Reversão de Baixa"
+        },
+        "correct": "b",
+        "explanation": "O Rally-Base-Rally consiste em uma subida forte (Rally), uma pausa lateral (Base) e nova subida (Rally). A 'Base' vira uma zona forte de demanda."
+    },
+    {
+        "question": "Observe a estrutura de mercado na imagem. O momento marcado como 'ChoCh' (Change of Character) indica:",
+        "image": "od_choch.png",
+        "options": {
+            "a": "Continuação da tendência anterior",
+            "b": "A primeira quebra de estrutura que sinaliza uma possível mudança de tendência (de baixa para alta ou vice-versa)",
+            "c": "Um falso rompimento",
+            "d": "Aumento de volume"
+        },
+        "correct": "b",
+        "explanation": "ChoCh (Mudança de Caráter) ocorre quando o preço quebra o último topo válido (na baixa) ou fundo válido (na alta), indicando que a força dominante mudou."
+    },
+    {
+        "question": "Identifique o conceito mostrado na área cinza entre as velas. Essa ineficiência de preço é chamada de:",
+        "image": "od_fvg.png",
+        "options": {
+            "a": "Fair Value Gap (FVG) / Imbalance",
+            "b": "Resistência",
+            "c": "Doji",
+            "d": "Martelo"
+        },
+        "correct": "a",
+        "explanation": "O FVG é um vácuo de liquidez criado por um movimento agressivo, onde o pavio da primeira vela não toca o da terceira. O preço tende a voltar para preencher essa lacuna."
+    },
+    {
+        "question": "Na imagem, vemos uma formação de 'Equal Highs' (Topos Iguais). Como o Smart Money vê essa região?",
+        "image": "od_equal_highs.png",
+        "options": {
+            "a": "Como uma barreira intransponível",
+            "b": "Como um 'Imã de Liquidez' (Pool de Liquidez), pois há muitos Stop Loss de varejo logo acima",
+            "c": "Como um sinal de venda imediata",
+            "d": "Como uma zona sem importância"
+        },
+        "correct": "b",
+        "explanation": "Topos duplos perfeitos atraem varejistas para vender. O Smart Money costuma empurrar o preço acima deles para capturar a liquidez (stops) antes de mover o mercado."
+    },
+    {
+        "question": "Analise o padrão de reversão na imagem. O mercado vinha caindo, formou uma base e subiu. Este padrão é o:",
+        "image": "od_drop_base_rally.png",
+        "options": {
+            "a": "Rally-Base-Drop",
+            "b": "Drop-Base-Rally",
+            "c": "Continuação de Baixa",
+            "d": "Bandeira"
+        },
+        "correct": "b",
+        "explanation": "O Drop-Base-Rally é um padrão de reversão de fundo (Demanda). A queda (Drop) é interrompida por acumulação (Base) e revertida por uma alta (Rally)."
+    },
+    {
+        "question": "A imagem mostra uma zona onde o preço tocou e reagiu fortemente para cima. Essa é uma zona de:",
+        "image": "od_demanda.png",
+        "options": {
+            "a": "Oferta",
+            "b": "Demanda",
+            "c": "Distribuição",
+            "d": "Resistência"
+        },
+        "correct": "b",
+        "explanation": "Zonas de Demanda são áreas de preço onde o interesse comprador superou o vendedor no passado, criando um 'piso' para o preço."
+    },
+    {
+        "question": "O que acontece psicologicamente em uma 'Base' (a caixa cinza nos padrões de RBR ou DBR)?",
+        "options": {
+            "a": "O mercado está fechado",
+            "b": "Batalha entre compradores e vendedores onde ordens são acumuladas antes do desequilíbrio",
+            "c": "Ninguém está operando",
+            "d": "O volume é sempre alto"
+        },
+        "correct": "b",
+        "explanation": "A Base representa o equilíbrio momentâneo e a construção de posições institucionais antes que o preço exploda para um dos lados."
+    },
+    {
+        "question": "Se o preço retorna a um FVG (Imbalance) e rejeita, isso confirma:",
+        "options": {
+            "a": "Que a tendência é fraca",
+            "b": "O rebalanceamento do preço e a continuação do movimento a favor do fluxo",
+            "c": "Que o FVG não funciona",
+            "d": "Reversão total"
+        },
+        "correct": "b",
+        "explanation": "O preenchimento do FVG é saudável. O mercado 'conserta' a ineficiência e ganha combustível para seguir a tendência."
+    },
+    {
+        "question": "Qual a diferença entre BOS (Break of Structure) e ChoCh?",
+        "options": {
+            "a": "Não há diferença",
+            "b": "BOS é continuação da tendência (rompe topos na alta); ChoCh é o primeiro sinal de reversão (rompe o último fundo na alta)",
+            "c": "ChoCh é mais fraco",
+            "d": "BOS só acontece em lateralidade"
+        },
+        "correct": "b",
+        "explanation": "BOS confirma que a tendência continua saudável. ChoCh avisa que a tendência pode estar mudando de direção."
+    },
+    {
+        "question": "Por que 'Equal Lows' (Fundos Iguais) são perigosos para colocar Stop Loss logo abaixo?",
+        "options": {
+            "a": "Porque o suporte é muito forte",
+            "b": "Porque funcionam como liquidez. O preço frequentemente faz um 'falso rompimento' ali para pegar os stops antes de subir",
+            "c": "Porque o preço nunca chega lá",
+            "d": "Não são perigosos"
+        },
+        "correct": "b",
+        "explanation": "Onde há padrões muito óbvios, há liquidez. Instituições precisam dessa liquidez para preencher suas ordens gigantes."
+    }
+]

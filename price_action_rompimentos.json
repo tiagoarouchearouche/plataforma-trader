@@ -1,0 +1,222 @@
+[
+    {
+        "question": "O que é um 'Breakout' (Rompimento)?",
+        "options": {
+            "a": "Quando o preço ultrapassa uma zona de suporte/resistência ou consolidação definida",
+            "b": "Quando o mercado para",
+            "c": "Quando o preço volta",
+            "d": "Um indicador"
+        },
+        "correct": "a",
+        "explanation": "É a libertação do preço. Ele estava preso numa caixa e finalmente escapou para andar forte."
+    },
+    {
+        "question": "A maioria dos rompimentos de lateralidades costuma ser:",
+        "options": {
+            "a": "Verdadeira",
+            "b": "Falsa (Falha de rompimento)",
+            "c": "50/50",
+            "d": "Irrelevante"
+        },
+        "correct": "b",
+        "explanation": "Al Brooks diz que 80% dos rompimentos em trading ranges falham. O mercado tenta ir e volta para dentro da caixa."
+    },
+    {
+        "question": "O que é uma 'Bull Trap' (Armadilha de Touros)?",
+        "options": {
+            "a": "Falso rompimento de Resistência (Topo)",
+            "b": "Falso rompimento de Suporte (Fundo)",
+            "c": "Mercado de alta real",
+            "d": "Uma festa de rodeio"
+        },
+        "correct": "a",
+        "explanation": "O preço rompe o topo, atrai compradores (touros) e, de repente, desaba, deixando todos presos no prejuízo."
+    },
+    {
+        "question": "O que é uma 'Bear Trap' (Armadilha de Ursos)?",
+        "options": {
+            "a": "Falso rompimento de Suporte (Fundo)",
+            "b": "Falso rompimento de Resistência",
+            "c": "Tendência de baixa real",
+            "d": "Zoológico"
+        },
+        "correct": "a",
+        "explanation": "O preço perde o fundo, atrai vendedores (ursos) achando que vai cair mais, mas dispara para cima estopando todo mundo (Spring)."
+    },
+    {
+        "question": "Qual o melhor sinal de confirmação de um rompimento verdadeiro?",
+        "options": {
+            "a": "Um candle de força fechando longe da zona rompida + Volume alto",
+            "b": "Apenas pavio rompendo",
+            "c": "Volume baixo",
+            "d": "Divergência no RSI"
+        },
+        "correct": "a",
+        "explanation": "O fechamento é a chave. Se fechou bem longe do nível e teve muito dinheiro (volume) envolvido, é provável que seja real."
+    },
+    {
+        "question": "Entrar no 'Reteste' (Pullback) após o rompimento é:",
+        "options": {
+            "a": "Mais seguro que entrar no rompimento, pois evita falsos rompimentos",
+            "b": "Pior, pois perde o movimento",
+            "c": "Errado",
+            "d": "Arriscado"
+        },
+        "correct": "a",
+        "explanation": "Se você espera o preço romper, voltar e confirmar, você filtra muitas armadilhas. O risco é o preço ir embora sem voltar (ficar de fora)."
+    },
+    {
+        "question": "O que é um 'Candle de Ignição'?",
+        "options": {
+            "a": "O candle pequeno",
+            "b": "O candle de força (Barra Elefante) que inicia o movimento de rompimento saindo da congestão",
+            "c": "O último candle do dia",
+            "d": "Um Doji"
+        },
+        "correct": "b",
+        "explanation": "É a barra que diz 'Vai começar!'. Grande, cheia e rompendo níveis."
+    },
+    {
+        "question": "Se o preço rompe e fica lateralizando logo acima do rompimento (sem voltar para dentro):",
+        "options": {
+            "a": "É um sinal de fraqueza",
+            "b": "É um sinal de força (Aceitação de preço novo / Buildup)",
+            "c": "É falso rompimento",
+            "d": "Deve-se vender"
+        },
+        "correct": "b",
+        "explanation": "O mercado aceitou o novo patamar. Não rejeitou. Provavelmente vai romper essa nova consolidação a favor da tendência (Bandeira)."
+    },
+    {
+        "question": "Stop Loss ideal ao operar um rompimento fica:",
+        "options": {
+            "a": "No meio do candle",
+            "b": "No outro extremo da congestão ou abaixo do candle de rompimento/pivô",
+            "c": "Não usa stop",
+            "d": "1 ponto abaixo"
+        },
+        "correct": "b",
+        "explanation": "Se o rompimento for real, o preço não deve voltar para o outro lado da caixa. Se voltar, a tese falhou."
+    },
+    {
+        "question": "Rompimento contra a tendência principal tem chance de sucesso:",
+        "options": {
+            "a": "Maior",
+            "b": "Menor (provável falso rompimento)",
+            "c": "Igual",
+            "d": "Garantida"
+        },
+        "correct": "b",
+        "explanation": "A inércia é forte. Rompimentos a favor da tendência fluem. Contra a tendência, muitas vezes são apenas 'stop hunts'."
+    },
+    {
+        "question": "Um 'Violino' (Violinada) acontece quando:",
+        "options": {
+            "a": "O mercado toca música",
+            "b": "O preço vai no seu stop, te tira da operação, e depois vai para o seu alvo",
+            "c": "Você ganha muito dinheiro",
+            "d": "O rompimento funciona direto"
+        },
+        "correct": "b",
+        "explanation": "Clássico movimento de volatilidade para limpar os stops óbvios antes do movimento real."
+    },
+    {
+        "question": "Volume *decrescente* durante um rompimento sugere:",
+        "options": {
+            "a": "Falso rompimento (Falta de interesse)",
+            "b": "Rompimento forte",
+            "c": "Sucesso",
+            "d": "Alta volatilidade"
+        },
+        "correct": "a",
+        "explanation": "Se o preço está subindo rompendo topo, mas o volume está sumindo, é divergência. Logo a gravidade atua."
+    },
+    {
+        "question": "O padrão 'Power Breakout' ocorre quando:",
+        "options": {
+            "a": "O preço consolida colado na resistência, a média de 20 chega perto, e ele explode",
+            "b": "O preço cai",
+            "c": "O preço faz um martelo",
+            "d": "Rompimento sem volume"
+        },
+        "correct": "a",
+        "explanation": "Setup explosivo. A consolidação curta (preparação) junto com a média empurrando cria uma pressão que libera muita energia."
+    },
+    {
+        "question": "Se o candle de rompimento tiver muito pavio contra o movimento:",
+        "options": {
+            "a": "É um sinal ruim (pressão contrária)",
+            "b": "É um sinal bom",
+            "c": "Não importa",
+            "d": "Confirma o rompimento"
+        },
+        "correct": "a",
+        "explanation": "Se rompeu o topo mas deixou um pavio enorme em cima, os vendedores já bateram ali. Perigo de falha."
+    },
+    {
+        "question": "Estratégia para quem perdeu o rompimento:",
+        "options": {
+            "a": "Entrar mercado a qualquer preço (FOMO)",
+            "b": "Esperar pacientemente um Pullback ou Bandeira para entrar",
+            "c": "Chorar",
+            "d": "Operar contra"
+        },
+        "correct": "b",
+        "explanation": "Nunca corra atrás do preço. Se foi, foi. Espere o ônibus (preço) parar no ponto (pullback) para subir."
+    },
+    {
+        "question": "O termo 'Fakeout' é a junção de:",
+        "options": {
+            "a": "Fake + Breakout (Falso Rompimento)",
+            "b": "Face + Out",
+            "c": "Fast + Out",
+            "d": "Fake + Outra coisa"
+        },
+        "correct": "a",
+        "explanation": "Termo comum em inglês para armadilhas de rompimento."
+    },
+    {
+        "question": "Rompimentos em horários de baixa liquidez (ex: hora do almoço) são:",
+        "options": {
+            "a": "Confiáveis",
+            "b": "Suspeitos e propensos a falhar",
+            "c": "Os melhores",
+            "d": "Proibidos"
+        },
+        "correct": "b",
+        "explanation": "Sem grandes players institucionais, qualquer ordem pequena move o preço, criando falsos sinais."
+    },
+    {
+        "question": "Se o rompimento falha, o alvo provável é:",
+        "options": {
+            "a": "O outro lado da consolidação (Suporte oposto)",
+            "b": "Ficar parado",
+            "c": "Subir mais",
+            "d": "A lua"
+        },
+        "correct": "a",
+        "explanation": "Se tentou romper o teto e falhou, a frustração joga o preço até o chão. Falhas de rompimento são setups de reversão poderosos."
+    },
+    {
+        "question": "O 'Breakout Trading' é favorito de:",
+        "options": {
+            "a": "Traders de Momentum (que buscam explosão)",
+            "b": "Traders de valor",
+            "c": "Scalpers de lateralidade",
+            "d": "Holders"
+        },
+        "correct": "a",
+        "explanation": "Quem gosta de pegar movimentos rápidos e fortes opera rompimento."
+    },
+    {
+        "question": "Uma 'Barra de Sinal' ideal para rompimento fecha:",
+        "options": {
+            "a": "Na sua máxima (ou mínima, na venda)",
+            "b": "No meio",
+            "c": "Com Doji",
+            "d": "Contra o movimento"
+        },
+        "correct": "a",
+        "explanation": "Fechamento na máxima mostra que os compradores estavam dispostos a pagar qualquer preço até o último segundo."
+    }
+]

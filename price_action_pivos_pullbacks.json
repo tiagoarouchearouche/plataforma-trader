@@ -1,0 +1,222 @@
+[
+    {
+        "question": "O que é um 'Pullback'?",
+        "options": {
+            "a": "Uma reversão de tendência",
+            "b": "Um movimento contra a tendência principal (respiro/descanso) para retomar a força",
+            "c": "Um erro operacional",
+            "d": "Uma lateralização eterna"
+        },
+        "correct": "b",
+        "explanation": "Preço esticou demais? Ele volta (recua) para pegar liquidez antes de continuar. Isso é pullback."
+    },
+    {
+        "question": "Um 'Pivô de Alta' é formado pela sequência:",
+        "options": {
+            "a": "Fundo, Topo, Fundo Mais Alto, Rompimento do Topo Anterior",
+            "b": "Topo, Fundo, Topo Mais Baixo",
+            "c": "Três candles verdes",
+            "d": "Uma linha reta"
+        },
+        "correct": "a",
+        "explanation": "É a estrutura clássica 'N'. Sobe, desce um pouco (fundo maior) e rompe o topo. Confirmou a tendência."
+    },
+    {
+        "question": "Qual a diferença entre Pullback e Reversão?",
+        "options": {
+            "a": "O tamanho",
+            "b": "O Pullback é temporário e respeita suportes/médias; a Reversão rompe a estrutura da tendência",
+            "c": "Não há diferença",
+            "d": "Pullback é só na alta"
+        },
+        "correct": "b",
+        "explanation": "Se o preço cai e não para mais, é reversão. Se cai, para no suporte e volta a subir, foi só um pullback."
+    },
+    {
+        "question": "O melhor momento para entrar em uma tendência é:",
+        "options": {
+            "a": "No topo do impulso (estourado)",
+            "b": "No final do Pullback (barato)",
+            "c": "Em qualquer lugar",
+            "d": "Na abertura"
+        },
+        "correct": "b",
+        "explanation": "Comprar no pullback é comprar com 'desconto' e stop barato. Comprar no topo é pedir para ser violinado."
+    },
+    {
+        "question": "Um 'Throwback' é tecnicamente:",
+        "options": {
+            "a": "Um pullback de alta (preço rompe resistência e volta para testá-la por cima)",
+            "b": "Um pullback de baixa",
+            "c": "Uma reversão",
+            "d": "Um gap"
+        },
+        "correct": "a",
+        "explanation": "Termo técnico. Pullback geralmente refere-se à volta na baixa, Throwback à volta na alta, mas 'Pullback' virou termo geral."
+    },
+    {
+        "question": "O Pivô de Baixa é confirmado quando:",
+        "options": {
+            "a": "O preço rompe o Fundo anterior após fazer um Topo mais baixo",
+            "b": "O preço sobe",
+            "c": "Aparece um martelo",
+            "d": "Toca na média"
+        },
+        "correct": "a",
+        "explanation": "Estrutura de 'N' invertido. Cai, sobe um pouco (topo menor) e perde o fundo. Venda confirmada."
+    },
+    {
+        "question": "Ferramenta mais usada para medir até onde um Pullback pode ir:",
+        "options": {
+            "a": "Retração de Fibonacci",
+            "b": "Bandas de Bollinger",
+            "c": "OBV",
+            "d": "Volume"
+        },
+        "correct": "a",
+        "explanation": "Traders amam retrações de 50% e 61.8% de Fibonacci para caçar o fim do pullback."
+    },
+    {
+        "question": "O que é um 'Pullback Complexo'?",
+        "options": {
+            "a": "Um pullback que dura muito tempo, tem várias pernas ou forma uma bandeira/lateralização",
+            "b": "Um pullback rápido",
+            "c": "Um pullback que não existe",
+            "d": "Uma reversão"
+        },
+        "correct": "a",
+        "explanation": "Nem todo recuo é simples (uma vela). Às vezes o mercado fica corrigindo de lado por horas antes de ir."
+    },
+    {
+        "question": "Se o Pullback for muito profundo (ex: devolve 90% da alta):",
+        "options": {
+            "a": "É ótimo para comprar",
+            "b": "Enfraquece a tendência, pois mostra muita força contrária. Cuidado com lateralidade",
+            "c": "Confirma tendência forte",
+            "d": "É pivô de alta"
+        },
+        "correct": "b",
+        "explanation": "Tendências fortes têm pullbacks rasos. Se voltou tudo, a tendência provavelmente acabou ou virou range."
+    },
+    {
+        "question": "Entrar no rompimento do Pivô (Cabeça do Pivô) é:",
+        "options": {
+            "a": "Mais conservador (confirmação), mas o stop é mais caro",
+            "b": "Mais arriscado",
+            "c": "A única forma de operar",
+            "d": "Errado"
+        },
+        "correct": "a",
+        "explanation": "Você paga mais caro para ter a certeza que o topo foi rompido. O stop técnico fica lá embaixo no fundo do pivô."
+    },
+    {
+        "question": "Entrar no teste do fundo (antecipação do Pivô) é:",
+        "options": {
+            "a": "Mais arriscado (pode não romper), mas o retorno/risco é melhor",
+            "b": "Conservador",
+            "c": "Proibido",
+            "d": "Garantido"
+        },
+        "correct": "a",
+        "explanation": "Você tenta acertar o 'cu da mosca' no final do pullback. Se acertar, ganha muito. Se errar, o stop é curto."
+    },
+    {
+        "question": "O termo 'Gift' (Presente) no Price Action refere-se a:",
+        "options": {
+            "a": "Um pullback minúsculo logo após um rompimento, permitindo entrada atrasada",
+            "b": "Ganhar dinheiro fácil",
+            "c": "Um gap de abertura",
+            "d": "Um padrão de reversão"
+        },
+        "correct": "a",
+        "explanation": "O preço rompe forte e volta só um pouquinho (gift) para você entrar antes de explodir de vez."
+    },
+    {
+        "question": "Pivô alinhado com as Médias Móveis (ex: Pivotando em cima da MM20) é:",
+        "options": {
+            "a": "Setup de alta probabilidade (Power Breakout)",
+            "b": "Sinal de venda",
+            "c": "Irrelevante",
+            "d": "Perigoso"
+        },
+        "correct": "a",
+        "explanation": "O suporte dinâmico da média empurra o pivô. É um dos setups favoritos de traders de tendência."
+    },
+    {
+        "question": "O que invalida um Pivô de Alta?",
+        "options": {
+            "a": "Perder o fundo que originou o pivô (Fundo de referência)",
+            "b": "Não romper imediatamente",
+            "c": "Volume baixo",
+            "d": "Candle vermelho"
+        },
+        "correct": "a",
+        "explanation": "Se o preço cai abaixo do início do movimento, a estrutura de alta (fundos ascendentes) foi destruída."
+    },
+    {
+        "question": "Pullback pós-rompimento (Pullback de confirmação) serve para:",
+        "options": {
+            "a": "Testar se a resistência rompida virou suporte de verdade",
+            "b": "Dar prejuízo",
+            "c": "Fechar o mercado",
+            "d": "Formar topo duplo"
+        },
+        "correct": "a",
+        "explanation": "O mercado 'pergunta': Tem compradores aqui mesmo? Se sim, o preço bate no antigo teto e sobe."
+    },
+    {
+        "question": "Quantas pernas geralmente tem um Pullback simples (ABC)?",
+        "options": {
+            "a": "1",
+            "b": "2 (A-B-C)",
+            "c": "5",
+            "d": "10"
+        },
+        "correct": "b",
+        "explanation": "Padrão corretivo clássico de Elliott (Zig-Zag). Uma perna cai, uma corrige um pouco, outra cai, finalizando o pullback."
+    },
+    {
+        "question": "O Pivô é a base da teoria de:",
+        "options": {
+            "a": "Dow (Tendências são feitas de topos e fundos ascendentes/descendentes)",
+            "b": "Einstein",
+            "c": "Newton",
+            "d": "Darwin"
+        },
+        "correct": "a",
+        "explanation": "Charles Dow definiu tendência há mais de 100 anos descrevendo exatamente a mecânica dos pivôs."
+    },
+    {
+        "question": "Se o preço sobe reto sem fazer Pullback (Parabólico):",
+        "options": {
+            "a": "É fácil de entrar",
+            "b": "É difícil entrar (sem stop técnico seguro) e perigoso (pode voltar tudo de uma vez)",
+            "c": "É sustentável",
+            "d": "É lateralidade"
+        },
+        "correct": "b",
+        "explanation": "FOMO (Fear of Missing Out). Quem entra no topo do movimento esticado geralmente paga a conta do pullback violento que vem depois."
+    },
+    {
+        "question": "Um 'Pullback na Média' é:",
+        "options": {
+            "a": "Quando o preço volta até tocar na média móvel e reage",
+            "b": "Quando a média cruza",
+            "c": "Quando o preço fica longe da média",
+            "d": "Erro gráfico"
+        },
+        "correct": "a",
+        "explanation": "Estratégia de retorno à média. O preço se afasta (estica) e volta para 'reabastecer' na média."
+    },
+    {
+        "question": "Identificar pivôs ajuda a traçar:",
+        "options": {
+            "a": "Projeções de Fibonacci (Alvos)",
+            "b": "O volume",
+            "c": "O nome do ativo",
+            "d": "A cor do candle"
+        },
+        "correct": "a",
+        "explanation": "Você mede o tamanho da 'perna do pivô' e projeta ela para cima para saber onde realizar o lucro (100% do movimento)."
+    }
+]

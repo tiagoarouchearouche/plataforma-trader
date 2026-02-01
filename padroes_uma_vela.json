@@ -1,0 +1,222 @@
+[
+    {
+        "question": "Qual é a principal característica visual de um Doji?",
+        "options": {
+            "a": "Corpo grande e sem sombras",
+            "b": "Preço de Abertura igual (ou muito próximo) ao de Fechamento",
+            "c": "Sombra superior muito longa",
+            "d": "Sempre tem cor vermelha"
+        },
+        "correct": "b",
+        "explanation": "O Doji representa indecisão total. O mercado abriu e fechou praticamente no mesmo nível, formando uma cruz ou sinal de mais (+)."
+    },
+    {
+        "question": "O padrão 'Martelo' (Hammer) é encontrado idealmente em qual tendência?",
+        "options": {
+            "a": "Tendência de Alta",
+            "b": "Tendência de Baixa (Fundo)",
+            "c": "Mercado Lateral",
+            "d": "Em qualquer lugar"
+        },
+        "correct": "b",
+        "explanation": "O Martelo é um padrão de reversão altista. Ele aparece no fundo de uma tendência de baixa, sinalizando que os vendedores perderam força."
+    },
+    {
+        "question": "Como identificar uma 'Estrela Cadente' (Shooting Star)?",
+        "options": {
+            "a": "Corpo pequeno na parte inferior e longa sombra superior",
+            "b": "Corpo pequeno na parte superior e longa sombra inferior",
+            "c": "Corpo grande verde",
+            "d": "Sem sombras"
+        },
+        "correct": "a",
+        "explanation": "A Estrela Cadente parece um martelo invertido, mas aparece no TOPO de uma alta. Indica rejeição de preços mais altos."
+    },
+    {
+        "question": "Um 'Marubozu' de alta (verde) indica:",
+        "options": {
+            "a": "Fraqueza dos compradores",
+            "b": "Forte pressão compradora do início ao fim",
+            "c": "Indecisão do mercado",
+            "d": "Provável reversão para baixa"
+        },
+        "correct": "b",
+        "explanation": "O Marubozu não tem sombras (ou são minúsculas). Se é verde, significa que os compradores dominaram 100% da sessão."
+    },
+    {
+        "question": "Qual a diferença visual entre um Martelo e um Enforcado (Hanging Man)?",
+        "options": {
+            "a": "O formato é diferente",
+            "b": "A cor é diferente",
+            "c": "Nenhuma, a diferença é o contexto (onde aparecem)",
+            "d": "O Enforcado não tem sombra"
+        },
+        "correct": "c",
+        "explanation": "Visualmente são idênticos. O Martelo aparece no fundo (sinal de alta), e o Enforcado aparece no topo (sinal de baixa)."
+    },
+    {
+        "question": "O padrão 'Spinning Top' (Pião) sinaliza:",
+        "options": {
+            "a": "Forte tendência",
+            "b": "Indecisão e pausa no movimento",
+            "c": "Reversão imediata garantida",
+            "d": "Volume baixo"
+        },
+        "correct": "b",
+        "explanation": "Com corpo pequeno e sombras simétricas para cima e para baixo, o Spinning Top mostra que o mercado está 'pensando' ou descansando."
+    },
+    {
+        "question": "Para validar um Martelo, o tamanho da sombra inferior deve ser:",
+        "options": {
+            "a": "Igual ao corpo",
+            "b": "Menor que o corpo",
+            "c": "Pelo menos duas vezes o tamanho do corpo",
+            "d": "Inexistente"
+        },
+        "correct": "c",
+        "explanation": "A regra clássica diz que a sombra inferior deve ser pelo menos 2x maior que o corpo para mostrar uma rejeição significativa."
+    },
+    {
+        "question": "O 'Dragonfly Doji' (Doji Libélula) tem formato de 'T' e indica:",
+        "options": {
+            "a": "Força vendedora no fechamento",
+            "b": "Rejeição de preços baixos (força compradora)",
+            "c": "Mercado fechado",
+            "d": "Tendência de baixa forte"
+        },
+        "correct": "b",
+        "explanation": "O Dragonfly abre e fecha na máxima, com uma longa sombra inferior. Isso mostra que os ursos tentaram derrubar, mas os touros recuperaram tudo."
+    },
+    {
+        "question": "O 'Gravestone Doji' (Doji Lápide) é o oposto do Dragonfly e sinaliza:",
+        "options": {
+            "a": "Alta forte",
+            "b": "Rejeição de preços altos (sinal baixista)",
+            "c": "Continuidade",
+            "d": "Abertura igual à mínima"
+        },
+        "correct": "b",
+        "explanation": "Parece um 'T' invertido. O preço subiu, mas não se sustentou e fechou na mínima, parecendo uma lápide. Sinal pessimista."
+    },
+    {
+        "question": "A cor do corpo (Verde ou Vermelho) no Martelo é importante?",
+        "options": {
+            "a": "Sim, tem que ser verde",
+            "b": "Sim, tem que ser vermelho",
+            "c": "Não é crucial, mas verde é levemente mais forte",
+            "d": "Martelo não tem cor"
+        },
+        "correct": "c",
+        "explanation": "Um Martelo é válido independente da cor. Porém, se for verde (fechou acima da abertura), mostra uma recuperação ainda mais vigorosa."
+    },
+    {
+        "question": "Um 'Martelo Invertido' aparece em qual contexto?",
+        "options": {
+            "a": "No topo de uma alta",
+            "b": "No fundo de uma baixa",
+            "c": "Em mercado lateral",
+            "d": "Apenas em gráficos mensais"
+        },
+        "correct": "b",
+        "explanation": "Cuidado para não confundir com Estrela Cadente. O Martelo Invertido aparece no FUNDO. Indica que os compradores começaram a testar níveis mais altos."
+    },
+    {
+        "question": "O que fazer imediatamente após ver um candle de reversão (ex: Martelo)?",
+        "options": {
+            "a": "Entrar com lote máximo",
+            "b": "Vender a descoberto",
+            "c": "Aguardar o próximo candle para confirmação",
+            "d": "Fechar a plataforma"
+        },
+        "correct": "c",
+        "explanation": "Um candle sozinho não faz verão. É prudente esperar que o próximo candle rompa a máxima do Martelo para confirmar a reversão."
+    },
+    {
+        "question": "Um candle com sombras longas tanto em cima quanto embaixo e corpo minúsculo é:",
+        "options": {
+            "a": "Long Legged Doji (Doji de Pernas Longas)",
+            "b": "Marubozu",
+            "c": "Martelo",
+            "d": "Careca"
+        },
+        "correct": "a",
+        "explanation": "Reflete grande volatilidade e indecisão extrema. O mercado correu para os dois lados, mas ninguém venceu."
+    },
+    {
+        "question": "O Marubozu de Baixa (Vermelho) costuma atuar como:",
+        "options": {
+            "a": "Suporte",
+            "b": "Resistência (na sua metade ou topo)",
+            "c": "Sinal de reversão para alta",
+            "d": "Nada"
+        },
+        "correct": "b",
+        "explanation": "Devido à forte agressão vendedora, o corpo de um Marubozu de baixa muitas vezes vira uma barreira (resistência) para o preço no futuro."
+    },
+    {
+        "question": "Se aparecer uma Estrela Cadente no meio de uma tendência lateral (consolidação):",
+        "options": {
+            "a": "Tem menos relevância do que no topo",
+            "b": "É um sinal de venda fortíssimo",
+            "c": "Indica rompimento certo",
+            "d": "Deve-se comprar"
+        },
+        "correct": "a",
+        "explanation": "Candles de reversão precisam de uma tendência prévia para reverter. Em consolidação, eles são apenas ruído."
+    },
+    {
+        "question": "Qual a psicologia por trás do Enforcado (Hanging Man)?",
+        "options": {
+            "a": "Compradores estão fortes",
+            "b": "Vendedores conseguiram derrubar o preço durante o dia, mostrando fragilidade da alta",
+            "c": "O mercado está parado",
+            "d": "É um sinal de continuação da alta"
+        },
+        "correct": "b",
+        "explanation": "Apesar de fechar em cima, a longa sombra inferior mostra que houve uma venda massiva durante o período. A 'corda' está no pescoço dos comprados."
+    },
+    {
+        "question": "Um candle careca (Shaven Head) é aquele que:",
+        "options": {
+            "a": "Não tem sombra superior",
+            "b": "Não tem sombra inferior",
+            "c": "Não tem corpo",
+            "d": "É transparente"
+        },
+        "correct": "a",
+        "explanation": "Shaven Head significa 'cabeça raspada'. Indica que o preço fechou na máxima do período (em candle de alta) ou abriu na máxima (em candle de baixa)."
+    },
+    {
+        "question": "O 'Four Price Doji' (Doji de Quatro Preços) é uma linha horizontal (-). Isso ocorre quando:",
+        "options": {
+            "a": "Abertura, Máxima, Mínima e Fechamento são iguais",
+            "b": "O mercado subiu muito",
+            "c": "O mercado caiu muito",
+            "d": "Houve erro na plataforma"
+        },
+        "correct": "a",
+        "explanation": "Raro e indica liquidez zero ou mercado travado em leilão. Todos os quatro dados de preço foram no mesmo valor."
+    },
+    {
+        "question": "Qual desses padrões é considerado de 'continuação' e não de reversão?",
+        "options": {
+            "a": "Martelo",
+            "b": "Estrela Cadente",
+            "c": "Marubozu (no meio da tendência)",
+            "d": "Doji Lápide"
+        },
+        "correct": "c",
+        "explanation": "Se um Marubozu aparece no meio de uma tendência forte, ele geralmente confirma que a força continua (continuação)."
+    },
+    {
+        "question": "Em análise técnica, quanto maior o timeframe (ex: Semanal vs 5min), o sinal do candle é:",
+        "options": {
+            "a": "Menos confiável",
+            "b": "Mais confiável e forte",
+            "c": "Igual",
+            "d": "Irrelevante"
+        },
+        "correct": "b",
+        "explanation": "Um Martelo no gráfico Semanal é muito mais relevante que um Martelo no gráfico de 1 minuto, pois resume uma semana inteira de batalha."
+    }
+]

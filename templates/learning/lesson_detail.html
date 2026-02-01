@@ -1,0 +1,146 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="row justify-content-center">
+    <div class="col-lg-8">
+        
+        <div class="d-flex justify-content-between align-items-center mb-4">
+            <a href="{% url 'learning:course_map' %}" class="btn btn-outline-secondary">
+                <i class="bi bi-arrow-left"></i> Voltar
+            </a>
+            <span class="badge bg-warning text-dark fs-6">
+                <i class="bi bi-star-fill"></i> +{{ lesson.xp_reward }} XP
+            </span>
+        </div>
+
+        <div class="card shadow-sm mb-5">
+            <div class="card-body p-5">
+                <h1 class="card-title fw-bold mb-4">{{ lesson.title }}</h1>
+                <div class="card-text fs-5 lh-lg text-secondary">
+                    {{ lesson.content|safe }}
+                </div>
+            </div>
+        </div>
+
+        {% if lesson.questions.all %}
+            <h3 class="fw-bold mb-3"><i class="bi bi-puzzle-fill text-primary"></i> Quiz Rápido</h3>
+            
+            {% for question in lesson.questions.all %}
+            <div class="card mb-4 border-0 shadow-sm" id="question-card-{{ question.id }}">
+                <div class="card-body p-4">
+                    <h5 class="fw-bold mb-3">{{ forloop.counter }}. {{ question.text }}</h5>
+
+
+
+
+
+                    <div class="card mb-4 shadow-sm">
+                        <div class="card-body">
+                            <h5 class="card-title">{{ question.text }}</h5>
+
+                            {% if question.image %}
+                                <div class="text-center my-3">
+                                    <img src="{{ question.image.url }}" class="img-fluid rounded border" alt="Imagem da questão" style="max-height: 400px;">
+                                </div>
+                            {% endif %}
+                            <form ...>
+                                 ...
+                            </form>
+                        </div>
+                    </div>
+
+
+
+
+
+
+
+
+
+                    
+                    <div class="d-grid gap-2 options-container" id="options-{{ question.id }}">
+                        {% for key, value in question.options.items %}
+                            <button class="btn btn-outline-primary text-start p-3 option-btn" 
+                                    onclick="submitAnswer({{ question.id }}, '{{ key }}', this)">
+                                <span class="fw-bold text-uppercase me-2">{{ key }})</span> {{ value }}
+                            </button>
+                        {% endfor %}
+                    </div>
+
+                    <div id="feedback-{{ question.id }}" class="mt-3 p-3 rounded d-none">
+                        <strong id="feedback-title-{{ question.id }}"></strong>
+                        <p id="feedback-text-{{ question.id }}" class="mb-0"></p>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        {% endif %}
+
+        <div class="d-grid gap-2 mb-5">
+            <form method="POST">
+                {% csrf_token %}
+                <button type="submit" class="btn btn-success btn-lg w-100 py-3 fw-bold shadow">
+                    {% if is_completed %}
+                        Concluir e Voltar (Já Feito)
+                    {% else %}
+                        Concluir Aula e Resgatar Recompensas
+                    {% endif %}
+                </button>
+            </form>
+        </div>
+
+    </div>
+</div>
+
+<script>
+    function submitAnswer(questionId, selectedKey, btnElement) {
+        // Desabilita todos os botões dessa pergunta para evitar duplo clique
+        const container = document.getElementById(`options-${questionId}`);
+        const allButtons = container.querySelectorAll('.option-btn');
+        allButtons.forEach(btn => btn.disabled = true);
+
+        // Chama nossa API no Django
+        fetch("{% url 'learning:check_answer' %}", {
+            method: "POST",
+            headers: {
+                "Content-Type": "application/json",
+                "X-CSRFToken": "{{ csrf_token }}"
+            },
+            body: JSON.stringify({
+                question_id: questionId,
+                selected_option: selectedKey
+            })
+        })
+        .then(response => response.json())
+        .then(data => {
+            const feedbackDiv = document.getElementById(`feedback-${questionId}`);
+            const feedbackTitle = document.getElementById(`feedback-title-${questionId}`);
+            const feedbackText = document.getElementById(`feedback-text-${questionId}`);
+            
+            feedbackDiv.classList.remove('d-none');
+            feedbackText.innerText = data.explanation;
+
+            if (data.correct) {
+                // Acertou: Pinta de verde
+                btnElement.classList.remove('btn-outline-primary');
+                btnElement.classList.add('btn-success');
+                
+                feedbackDiv.classList.add('bg-success', 'text-white', 'bg-opacity-25');
+                feedbackDiv.style.border = "1px solid green";
+                feedbackTitle.innerText = "Correto! 🎉";
+            } else {
+                // Errou: Pinta de vermelho
+                btnElement.classList.remove('btn-outline-primary');
+                btnElement.classList.add('btn-danger');
+
+                feedbackDiv.classList.add('bg-danger', 'text-white', 'bg-opacity-25');
+                feedbackDiv.style.border = "1px solid red";
+                feedbackTitle.innerText = "Ops, incorreto.";
+                
+                // (Opcional) Mostra qual era a correta destacando o botão certo
+                // Aqui simplificamos apenas mostrando o erro
+            }
+        });
+    }
+</script>
+{% endblock %}

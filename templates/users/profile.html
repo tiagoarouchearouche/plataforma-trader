@@ -1,0 +1,119 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="container py-4">
+    
+    <div class="row align-items-center mb-5">
+        <div class="col-md-2 text-center">
+            <div class="bg-primary text-white rounded-circle d-flex align-items-center justify-content-center mx-auto" style="width: 80px; height: 80px; font-size: 30px;">
+                {{ user.username|make_list|first|upper }}
+            </div>
+        </div>
+        <div class="col-md-10">
+            <h2 class="fw-bold">{{ user.username }}</h2>
+            <p class="text-muted mb-2">Trader em Aprendizado</p>
+            <span class="badge bg-warning text-dark fs-6 me-2">
+                <i class="bi bi-coin"></i> {{ user.coins }} Moedas
+            </span>
+            <span class="badge bg-info text-dark fs-6">
+                <i class="bi bi-lightning-fill"></i> {{ user.xp }} XP
+            </span>
+        </div>
+    </div>
+
+    <div class="row mb-4">
+        <div class="col-md-4">
+            <div class="card shadow-sm border-0 border-start border-4 border-success h-100">
+                <div class="card-body">
+                    <h6 class="text-muted text-uppercase small">Win Rate (Taxa de Acerto)</h6>
+                    <h2 class="display-6 fw-bold text-success">{{ win_rate }}%</h2>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card shadow-sm border-0 border-start border-4 border-primary h-100">
+                <div class="card-body">
+                    <h6 class="text-muted text-uppercase small">Total de Operações</h6>
+                    <h2 class="display-6 fw-bold text-primary">{{ total_trades }}</h2>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card shadow-sm border-0 border-start border-4 border-danger h-100">
+                <div class="card-body">
+                    <h6 class="text-muted text-uppercase small">Losses (Erros)</h6>
+                    <h2 class="display-6 fw-bold text-danger">{{ losses }}</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-4 mb-4">
+            <div class="card shadow-sm border-0 h-100">
+                <div class="card-header bg-white fw-bold">Performance Global</div>
+                <div class="card-body">
+                    <canvas id="pieChart"></canvas>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col-md-8 mb-4">
+            <div class="card shadow-sm border-0 h-100">
+                <div class="card-header bg-white fw-bold">Evolução Diária (Trades por Dia)</div>
+                <div class="card-body">
+                    <canvas id="barChart"></canvas>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+<script>
+    // 1. Gráfico de Pizza (Win/Loss)
+    const ctxPie = document.getElementById('pieChart').getContext('2d');
+    new Chart(ctxPie, {
+        type: 'doughnut',
+        data: {
+            labels: ['Wins (Acertos)', 'Losses (Erros)'],
+            datasets: [{
+                data: {{ pie_data|safe }}, // Vem do Django: [10, 5]
+                backgroundColor: ['#198754', '#dc3545'], // Verde, Vermelho
+                borderWidth: 0
+            }]
+        },
+        options: {
+            responsive: true,
+            plugins: {
+                legend: { position: 'bottom' }
+            }
+        }
+    });
+
+    // 2. Gráfico de Barras (Atividade)
+    const ctxBar = document.getElementById('barChart').getContext('2d');
+    new Chart(ctxBar, {
+        type: 'bar',
+        data: {
+            labels: {{ bar_labels|safe }}, // Datas
+            datasets: [{
+                label: 'Trades Realizados',
+                data: {{ bar_values|safe }}, // Quantidade
+                backgroundColor: '#0d6efd',
+                borderRadius: 5
+            }]
+        },
+        options: {
+            scales: {
+                y: { beginAtZero: true, ticks: { stepSize: 1 } }
+            },
+            plugins: {
+                legend: { display: false }
+            }
+        }
+    });
+</script>
+{% endblock %}

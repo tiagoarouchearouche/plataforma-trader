@@ -1,0 +1,110 @@
+{% extends "base.html" %}
+{% load i18n %}
+{% load account socialaccount %}
+
+{% block content %}
+<style>
+    /* CSS para Centralizar e Estilizar */
+    .login-container {
+        min-height: 80vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #f8f9fa; /* Fundo leve para destaque */
+    }
+    .login-input input {
+        width: 100%;
+        padding: 12px 15px;
+        border: 1px solid #ced4da;
+        border-radius: 8px;
+        background-color: #fff;
+        transition: all 0.3s;
+    }
+    .login-input input:focus {
+        border-color: #0d6efd;
+        box-shadow: 0 0 0 4px rgba(13, 110, 253, 0.1);
+        outline: none;
+    }
+    /* Esconde labels padrão feias se necessário ou ajusta espaçamento */
+    .form-group { margin-bottom: 1rem; }
+</style>
+
+<div class="login-container">
+    <div class="col-md-5 col-lg-4 col-sm-10">
+        <div class="card shadow-lg border-0 rounded-4 overflow-hidden">
+            <div class="card-body p-5">
+                
+                <div class="text-center mb-5">
+                    <div class="bg-primary bg-opacity-10 text-primary rounded-circle d-inline-flex align-items-center justify-content-center mb-3" style="width: 70px; height: 70px;">
+                        <i class="bi bi-person-circle fs-1"></i>
+                    </div>
+                    <h3 class="fw-bold text-dark">Bem-vindo de volta!</h3>
+                    <p class="text-muted small">Insira suas credenciais para acessar o TraderEdu.</p>
+                </div>
+
+                <form class="login" method="POST" action="{% url 'account_login' %}">
+                    {% csrf_token %}
+                    
+                    {% if form.non_field_errors %}
+                        <div class="alert alert-danger d-flex align-items-center" role="alert">
+                            <i class="bi bi-exclamation-triangle-fill me-2"></i>
+                            <div>{{ form.non_field_errors|first }}</div>
+                        </div>
+                    {% endif %}
+
+                    <div class="mb-3 login-input">
+                        <label class="form-label fw-bold text-uppercase text-secondary" style="font-size: 0.75rem;">Login</label>
+                        {{ form.login }}
+                        {% if form.login.errors %}
+                            <div class="text-danger small mt-1">{{ form.login.errors|first }}</div>
+                        {% endif %}
+                    </div>
+
+                    <div class="mb-3 login-input">
+                        <label class="form-label fw-bold text-uppercase text-secondary" style="font-size: 0.75rem;">Senha</label>
+                        {{ form.password }}
+                        {% if form.password.errors %}
+                            <div class="text-danger small mt-1">{{ form.password.errors|first }}</div>
+                        {% endif %}
+                    </div>
+
+                    <div class="d-flex justify-content-between align-items-center mb-4">
+                        <div class="form-check">
+                            {{ form.remember }}
+                            <label class="form-check-label text-secondary small" for="id_remember">Lembrar de mim</label>
+                        </div>
+                        <a href="{% url 'account_reset_password' %}" class="text-decoration-none small fw-bold">Esqueceu?</a>
+                    </div>
+
+                    {% if redirect_field_value %}
+                        <input type="hidden" name="{{ redirect_field_name }}" value="{{ redirect_field_value }}" />
+                    {% endif %}
+
+                    <div class="d-grid">
+                        <button type="submit" class="btn btn-primary btn-lg fw-bold py-3 shadow-sm">
+                            ENTRAR <i class="bi bi-arrow-right-short fs-4 align-middle ms-1"></i>
+                        </button>
+                    </div>
+                </form>
+
+            </div>
+            
+            <div class="card-footer bg-light border-0 py-4 text-center">
+                <span class="text-muted small">Não tem uma conta?</span>
+                <a href="{{ signup_url }}" class="text-decoration-none fw-bold ms-1">Cadastre-se grátis</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        // Seleciona os inputs de login e senha gerados pelo Django e adiciona estilo
+        var inputs = document.querySelectorAll('input[name="login"], input[name="password"]');
+        inputs.forEach(function(input) {
+            input.classList.add('form-control'); // Classe padrão se quiser usar bootstrap puro
+            // Ou deixe sem nada se quiser usar só o nosso CSS .login-input input
+        });
+    });
+</script>
+{% endblock %}
